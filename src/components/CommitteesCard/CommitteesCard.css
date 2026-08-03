@@ -1,0 +1,87 @@
+.committees{
+padding:100px 0;
+background:transparent;
+}
+.committees .section-heading span{
+    font-size:100px;
+     color: var(--accent);
+     text-align:center;
+}
+.committees .committee-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:30px;
+margin-top:60px;
+}
+
+.committees .committee-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 35px;
+    transition:
+        border-color 0.2s ease,
+        background-color 0.2s ease;
+}
+.committees .committee-card:hover {
+
+    border-color: var(--accent);
+
+}
+
+.committees .committee-card h3 {
+
+    font-family: "Cinzel", serif;
+
+    font-size: 26px;
+
+    color: var(--text-primary);
+
+    margin-bottom: 20px;
+
+}
+.committees .committee-card p{
+
+color: var(--text-primary);
+
+line-height:1.8;
+font-size:20px;
+
+margin-bottom:25px;
+
+}
+
+.committees .committee-card a {
+
+    display: inline-block;
+
+    padding: 10px 22px;
+
+    border: 1px solid var(--accent);
+
+    border-radius: 30px;
+
+    color: var(--accent);
+
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease;
+
+}
+
+.committees .committee-card a:hover {
+
+    background: var(--accent);
+
+    color: var(--bg-primary);
+
+}
+.committees .committee-card:last-child {
+
+    grid-column: 1 / span 2;
+
+    justify-self: center;
+
+    width: calc(50% - 15px);
+
+}

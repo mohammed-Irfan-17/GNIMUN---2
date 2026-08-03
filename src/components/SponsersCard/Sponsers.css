@@ -1,0 +1,30 @@
+.sponsors{
+    padding:90px 10%;
+    min-height:70vh;
+    background:transparent;
+}
+.sponsors h2{
+    text-align:center;
+    color:var(--accent);
+    margin-bottom:40px;
+}
+.sponsors .sponsor-grid{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:30px;
+}
+.sponsors .sponsor-card{
+    height:180px;
+    background:var(--bg-card);
+    border:1px solid var(--border-color);
+    border-radius:12px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:var(--text-secondary);
+    font-size:18px;
+    transition:border-color 0.2s ease;
+}
+.sponsors .sponsor-card:hover{
+    border-color:var(--accent);
+}

@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    margin:0;
+    padding:0;
+
+    color:var(--text-primary);
+
+    background-color:var(--bg-primary);
+
+    background-image:
+
+        /* Top gold glow */
+        radial-gradient(
+            circle at top,
+            rgba(200, 164, 90, 0.14),
+            transparent 80%
+        ),
+
+        /* Bottom green shade */
+        radial-gradient(
+            circle at bottom,
+            rgba(18, 32, 24, 0.75),
+            transparent 80%
+        ),
+
+        /* Left green glow */
+        radial-gradient(
+            circle at left,
+            rgba(18, 32, 24, 0.35),
+            transparent 80%
+        ),
+
+        /* Right green glow */
+        radial-gradient(
+            circle at right,
+            rgba(200, 164, 90, 0.17),
+            transparent 80%
+        );
+
+    background-repeat:no-repeat;
+
+    background-size:cover;
+
+    background-attachment:fixed;
+
+}
+section {
+    position: relative;
+    min-height: 100vh;
+    background: transparent;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--text-primary);
+}
+
+p,
+li,
+span {
+    color: var(--text-secondary);
+}
+a {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--accent);
+}
+button,
+.btn {
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease,
+        border-color 0.2s ease;
+}
+.card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+} 

@@ -1,0 +1,153 @@
+.hero {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding: 120px 20px 80px;
+
+    background: transparent;
+}
+
+.hero .hero-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.hero .hero-logo {
+    width: 280px;
+    height: 280px;
+
+    border-radius: 50%;
+    margin-left: 70px;
+
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid var(--border-color);
+
+    background: var(--bg-card);
+}
+
+.hero .hero-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero h1 {
+    font-family: "Cinzel", serif;
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    color: var(--text-primary);
+}
+
+.hero h2 {
+    font-family: "Cinzel", serif;
+    font-size: 34px;
+    font-weight: 400;
+
+    color: var(--accent);
+
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+
+    color: var(--text-secondary);
+
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+.hero .hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.hero .btn {
+    padding: 14px 34px;
+
+    border-radius: 40px;
+
+    font-weight: 600;
+
+    transition: 0.35s;
+}
+
+.hero .btn-primary {
+    background: var(--accent);
+    color: var(--bg-primary);
+}
+
+.hero .btn-primary:hover {
+    background: var(--accent-hover);
+
+    transform: translateY(-3px);
+}
+
+.hero .btn-outline {
+    border: 1px solid var(--accent);
+
+    color: var(--text-primary);
+}
+
+.hero .btn-outline:hover {
+    background: var(--accent);
+
+    color: var(--bg-primary);
+}
+
+@media (max-width: 768px) {
+
+    .hero .hero-logo img {
+        width: 200px;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+    }
+
+    .hero h2 {
+        font-size: 24px;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .hero .hero-logo img {
+        width: 170px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero h2 {
+        font-size: 20px;
+    }
+
+    .hero .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero .btn {
+        width: 220px;
+        text-align: center;
+    }
+}

@@ -1,79 +1,80 @@
+import { Link } from "react-router-dom";
 import "./CommitteesCard.css";
-function CommitteesCard(){
-    return(
-        <>
-        <section className="committees" id="committees">
 
-    <div className="container">
+import unhrc from "../../assets/logos/mun-logo.jpeg";
+import unsc from "../../assets/logos/mun-logo.jpeg";
+import disec from "../../assets/logos/mun-logo.jpeg";
+import who from "../../assets/logos/mun-logo.jpeg";
+import loksabha from "../../assets/logos/mun-logo.jpeg";
 
-        <div className="section-heading">
+const committees = [        
+    {
+        image: unhrc,
+        short: "UNHRC",
+        name: "United Nations Human Rights Council"
+    },
+    {
+        image: unsc,
+        short: "UNSC",
+        name: "United Nations Security Council"
+    },
+    {
+        image: disec,
+        short: "DISEC",
+        name: "Disarmament & International Security"
+    },
+    {
+        image: who,
+        short: "WHO",
+        name: "World Health Organization"
+    },
+    {
+        image: loksabha,
+        short: "LOK SABHA",
+        name: "Indian Parliament"
+    }
+];
 
-            <span>COMMITTEES</span>
+function CommitteesCard() {
+    return (
+        <section className="committees section">
 
-            <h2>Committees of GNIMUN II</h2>
+            <h2 className="section-title">
+                Our Committees
+            </h2>
 
-            <p>
-                Engage in meaningful discussions across various committees,
-                each focusing on unique global challenges and international affairs.
+            <p className="committees-tagline">
+                Explore the committees where diplomacy, leadership and
+                global collaboration come together.
             </p>
 
+            <div className="committee-grid">
+
+                {committees.map((committee,index)=>(
+    <div className="committee-card" key={index}>
+
+        <div className="committee-logo">
+            <img
+                src={committee.image}
+                alt={committee.short}
+            />
         </div>
 
-        <div className="committee-grid">
-
-            <div className="committee-card">
-
-                <h3>UNGA</h3>
-
-                <p>
-                    United Nations General Assembly discussing international peace,
-                    security and global cooperation.
-                </p>
-
-                <a href="#">Learn More</a>
-
-            </div>
-
-            <div className="committee-card">
-
-                <h3>UNSC</h3>
-
-                <p>
-                    Addressing conflicts, global security and international stability
-                    through diplomatic negotiations.
-                </p>
-
-                <a href="#">Learn More</a>
-
-            </div>
-            <div className="committee-card">
-                <h3>WHO</h3>
-                <p>
-                    Focusing on global healthcare policies, disease prevention and
-                    international public health cooperation.
-                </p>
-                <a href="#">Learn More</a>
-            </div>
-            <div className="committee-card">
-                <h3>UNHRC</h3>
-                <p>
-                    Promoting human rights, equality and justice across nations
-                    through collaborative resolutions.
-                </p>
-                <a href="#">Learn More</a>
-            </div>
-             <div className="committee-card">
-                <h3>UNHRC</h3>
-                <p>
-                    Promoting human rights, equality and justice across nations
-                    through collaborative resolutions.
-                </p>
-                <a href="#">Learn More</a>
-            </div>
+        <div className="committee-content">
+            <h3>{committee.short}</h3>
+            <p>{committee.name}</p>
+             
         </div>
+
     </div>
-</section>
-        </>
+))}
+
+            </div>
+<Link to="/committees" className="view-btn">
+    View All Committees 
+</Link>
+        </section>
     );
 }
+
 export default CommitteesCard;

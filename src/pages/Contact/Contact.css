@@ -1,0 +1,56 @@
+.contact-page{
+    background:#060707;
+    color:#F4F4F4;
+    min-height:100vh;
+}
+
+.contact-banner{
+    padding:80px 10%;
+    text-align:center;
+    background:#122018;
+    border-bottom:1px solid #37433D;
+}
+
+.contact-banner h1{
+    color:#C7A34A;
+    margin-bottom:10px;
+}
+
+.contact-banner p{
+    color:#A6B0AE;
+}
+
+.contact-section{
+    padding:80px 10%;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+}
+
+.contact-card,.map-card{
+    background:#1A241F;
+    border:1px solid #37433D;
+    padding:30px;
+}
+
+.contact-card h2{
+    color:#C7A34A;
+    margin-bottom:20px;
+}
+
+.contact-card h3{
+    margin:20px 0 10px;
+}
+
+.contact-card p{
+    color:#A6B0AE;
+    margin-bottom:8px;
+}
+
+.map-card{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#A6B0AE;
+    min-height:350px;
+}

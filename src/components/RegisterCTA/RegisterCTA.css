@@ -1,0 +1,46 @@
+.register-cta{
+    min-height:65vh;
+    padding:80px 10%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+}
+
+.register-cta h2{
+    font-size:3.5rem;
+    color:#C7A34A;
+    margin-bottom:25px;
+}
+
+.register-cta p{
+    max-width:700px;
+    color:var(--text-secondary);
+    font-size:1.2rem;
+    line-height:1.8;
+    margin-bottom:40px;
+}
+.register-cta button{
+    padding:16px 42px;
+    background:#060707;
+    color:#F4F4F4;
+    border:2px solid #C7A34A;
+    border-radius:50px;
+    font-size:1rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .3s ease;
+}
+
+.register-cta button:hover{
+    background:#C7A34A;
+    color:#060707;
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(199,163,74,.3);
+}
+
+.register-cta button:active{
+    transform:translateY(-2px);
+}

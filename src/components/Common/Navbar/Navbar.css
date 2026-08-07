@@ -30,15 +30,25 @@ transition: color 0.2s ease;
     text-decoration:none;
     font-size:20px;
 }
-.navbar nav a:hover{
-    color: var(--accent);
-}
-.navbar button{
-    padding:10px 22px;
-    background: var(--accent);
-color: var(--bg-primary);
-border: 1px solid var(--accent);
-    border-radius:5px;
-    font-size:15px;
+button{
+    padding:16px 42px;
+    background: rgba(200, 164, 90, 0.14);
+    color:#F4F4F4;
+    border:2px solid #C7A34A;
+    border-radius:50px;
+    font-size:1rem;
+    font-weight:600;
     cursor:pointer;
+    transition:all .3s ease;
+}
+
+button:hover{
+    background:#C7A34A;
+    color: rgba(200, 164, 90, 0.14);
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(199,163,74,.3);
+}
+
+button:active{
+    transform:translateY(-2px);
 }

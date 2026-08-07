@@ -1,10 +1,9 @@
-import Navbar from "../../components/Navbar/Navbar";
-import footer from "../../components/Footer/Footer";
-import Footer from "../../components/Footer/Footer";
-import AboutBanner from "../../components/AboutBanner/AboutBanner";
-import ShapingLeader from "../../components/ShapingLeaders/ShapingLeaders";
-import WhyChoose from "../../components/WhyChoose/WhyChoose";
-import RegisterCTA from "../../components/RegisterCTA/RegisterCTA";
+import Navbar from "../../components/Common/Navbar/Navbar";
+import Footer from "../../components/Common/Footer/Footer";
+import AboutBanner from "../../components/AboutPage/AboutBanner/AboutBanner";
+import ShapingLeader from "../../components/AboutPage/ShapingLeaders/ShapingLeaders";
+import WhyChoose from "../../components/AboutPage/WhyChoose/WhyChoose";
+import RegisterCTA from "../../components/AboutPage/RegisterCTA/RegisterCTA";
 function About(){
     const irfan="ABOUT";
     return(

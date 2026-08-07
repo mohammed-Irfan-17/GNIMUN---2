@@ -1,0 +1,47 @@
+.committee-hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 8%;
+    text-align: center;
+}
+
+.committee-hero-content {
+    max-width: 850px;
+}
+
+.committee-tag {
+    display: inline-block;
+    margin-bottom: 2rem;
+    color: var(--accent-gold);
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+
+.committee-hero h1 {
+    margin-bottom: 1.5rem;
+    font-size: clamp(2.8rem, 6vw, 5rem);
+    line-height: 1.15;
+    color:#C8A45A;
+}
+
+.committee-hero p {
+    max-width: 700px;
+    margin: 0 auto;
+    color: var(--text-secondary);
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+    .committee-hero {
+        padding: 5rem 6%;
+    }
+
+    .committee-hero p {
+        font-size: 1.5rem;
+    }
+}

@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import logo from "../../assets/logos/mun-logo.jpeg";
+import logo from "../../../assets/logos/mun-logo.jpeg";
 import { Link } from "react-router-dom";
 function Navbar() {
     return (

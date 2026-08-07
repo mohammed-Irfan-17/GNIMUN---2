@@ -1,0 +1,59 @@
+.committee-cta {
+    min-height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 8%;
+    border-top: 1px solid var(--border);
+    text-align: center;
+}
+
+.committee-cta-content {
+    max-width: 750px;
+}
+
+.committee-cta-tag {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: var(--accent-gold);
+    letter-spacing: .18rem;
+    font-size: .9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.committee-cta h2 {
+    font-size: clamp(2.4rem, 5vw, 4rem);
+    color: var(--text-primary);
+    margin-bottom: 1.5rem;
+}
+
+.committee-cta p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    margin-bottom: 2.5rem;
+}
+
+/* Button */
+button{
+    padding:16px 42px;
+    background:#060707;
+    color:#F4F4F4;
+    border:2px solid #C7A34A;
+    border-radius:50px;
+    font-size:1rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .3s ease;
+}
+
+button:hover{
+    background:#C7A34A;
+    color:#060707;
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(199,163,74,.3);
+}
+
+button:active{
+    transform:translateY(-2px);
+}

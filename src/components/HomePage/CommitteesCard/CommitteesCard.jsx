@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import "./CommitteesCard.css";
 
-import unhrc from "../../assets/logos/mun-logo.jpeg";
-import unsc from "../../assets/logos/mun-logo.jpeg";
-import disec from "../../assets/logos/mun-logo.jpeg";
-import who from "../../assets/logos/mun-logo.jpeg";
-import loksabha from "../../assets/logos/mun-logo.jpeg";
+import unhrc from "../../../assets/logos/mun-logo.jpeg";
+import unsc from "../../../assets/logos/mun-logo.jpeg";
+import disec from "../../../assets/logos/mun-logo.jpeg";
+import who from "../../../assets/logos/mun-logo.jpeg";
+import loksabha from "../../../assets/logos/mun-logo.jpeg";
 
 const committees = [        
     {

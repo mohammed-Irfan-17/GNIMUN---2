@@ -11,21 +11,21 @@ function CommitteeSection({
   reverse,
 }) {
   return (
-    <section className="committee-card-section">
-      <div className={`committee-card ${reverse ? "reverse" : ""}`}>
+    <section className="committee-detail-card-section">
+      <div className={`committee-detail-card ${reverse ? "reverse" : ""}`}>
 
-        <div className="committee-image">
+        <div className="committee-detail-image">
           <img src={image} alt={shortName} />
         </div>
 
-        <div className="committee-content">
+        <div className="committee-detail-content">
 
-          <div className="committee-title">
+          <div className="committee-detail-title">
 
             <img
               src={logo}
               alt={`${shortName} Logo`}
-              className="committee-logo"
+              className="committee-detail-logo"
             />
 
             <div>
@@ -35,21 +35,21 @@ function CommitteeSection({
 
           </div>
 
-          <p className="committee-tagline">
+          <p className="committee-detail-tagline">
             {tagline}
           </p>
 
-          <div className="committee-divider"></div>
+          <div className="committee-detail-divider"></div>
 
-          <p className="committee-overview">
+          <p className="committee-detail-overview">
             {overview}
           </p>
 
-          <div className="committee-divider"></div>
+          <div className="committee-detail-divider"></div>
 
           <h4>Agenda</h4>
 
-          <p className="committee-agenda">
+          <p className="committee-detail-agenda">
             {agenda}
           </p>
 

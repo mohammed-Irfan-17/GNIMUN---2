@@ -25,25 +25,34 @@
     gap:28px;
 }
 
-.committee-card{
-    min-height:450px;
-    border:1px solid var(--border);
-    border-radius:18px;
-    overflow:hidden;
-    background:#0E1412;
-    transition:.35s ease;
-    cursor:pointer;
+.committee-card {
+    min-height: 450px;
+
+    border: 1px solid rgba(199, 163, 74, 0.22);
+    border-radius: 18px;
+
+    overflow: hidden;
+
+    background: rgba(18, 32, 24, 0.28);
+    backdrop-filter: blur(18px);
+
+    transition: 0.4s ease;
+
+    cursor: pointer;
 }
 
-.committee-card:hover{
-    transform:translateY(-25px);
-    border-color:var(--accent-gold);
+.committee-card:hover {
+    transform: translateY(-25px);
 
-    filter:brightness(1.1);
+    background: rgba(255, 255, 255, 0.04);
+
+    border-color: var(--accent-gold);
+
+    filter: none;
 
     box-shadow:
-        0 15px 35px rgba(0,0,0,.35),
-        0 0 25px rgba(199,163,74,.12);
+        0 20px 50px rgba(0, 0, 0, 0.35),
+        0 0 35px rgba(199, 163, 74, 0.12);
 }
 
 .committee-logo{
@@ -55,53 +64,37 @@
     justify-content:center;
     align-items:center;
 
-    background:#111;
+    /* background:#111; */
 }
 
 .committee-logo img{
     width:100%;
     height:100%;
     object-fit:cover;
+   
 }
 
-.committee-content{
-    height:200px;
 
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
+.committee-content {
+    height: 200px;
 
-    padding:25px 20px;
-    text-align:center;
+    display: flex;
+    flex-direction: column;
 
-    background:
-        radial-gradient(
-            circle at top,
-            rgba(199,163,74,.08),
-            transparent 60%
-        ),
-        linear-gradient(
-            180deg,
-            #1A241F,
-            #122018
-        );
+    justify-content: center;
+    align-items: center;
 
-    transition:.35s ease;
+    padding: 25px 20px;
+
+    text-align: center;
+
+    background: transparent;
+
+    transition: 0.4s ease;
 }
 
-.committee-card:hover .committee-content{
-    background:
-        radial-gradient(
-            circle at top,
-            rgba(199,163,74,.15),
-            transparent 60%
-        ),
-        linear-gradient(
-            180deg,
-            #223129,
-            #16221C
-        );
+.committee-card:hover .committee-content {
+    background: transparent;
 }
 
 .committee-content h3{

@@ -16,6 +16,7 @@ function Navbar() {
                 <Link to="/committees">Committees</Link>
                 <Link to="/highlights">Highlights</Link>
                 <Link to="/contact">Cotact</Link>
+                
             </nav>
 
             <button>Register</button>

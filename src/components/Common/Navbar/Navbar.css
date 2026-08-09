@@ -7,6 +7,24 @@ border-bottom: 1px solid var(--border-color);
     align-items:center;
     padding:0 60px;
     border-bottom:1px solid var(--border-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    z-index: 1000;
+     
+    
+    background: rgba(18, 32, 24, 0.92);
+    backdrop-filter: blur(12px);
+
+    border-bottom: 1px solid rgba(199, 163, 74, 0.22);
+
+
+
+
+
 }
 .logo{
     display:flex;
@@ -24,16 +42,53 @@ border-bottom: 1px solid var(--border-color);
     color: var(--text-primary);
     font-size:24px;
 }
-.navbar nav{
-    display:flex;
-    gap:35px;
+.navbar nav {
+    display: flex;
+    gap: 35px;
 }
-.navbar nav a{
-  color: var(--text-primary);
-transition: color 0.2s ease;
-    text-decoration:none;
-    font-size:20px;
+
+.navbar nav a {
+    position: relative;
+
+    display: inline-block;
+
+    color: var(--text-secondary);
+
+    text-decoration: none;
+
+    font-size: 20px;
+
+    transition: color 0.3s ease;
 }
+
+.navbar nav a::after {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    bottom: -6px;
+
+    width: 0;
+    height: 2px;
+
+    background-color: #C7A34A;
+
+    transition: width 0.3s ease;
+}
+
+.navbar nav a:hover {
+    color: #C7A34A;
+}
+
+.navbar nav a:hover::after {
+    width: 100%;
+}
+
+
+
+
+
 button{
     padding:16px 42px;
     background: rgba(200, 164, 90, 0.14);

@@ -1,0 +1,68 @@
+.team-page {
+    width: 100%;
+}
+
+
+/* ================================= */
+/* HERO */
+/* ================================= */
+
+.team-hero {
+    min-height: 55vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 80px 7%;
+}
+
+.team-hero h1 {
+    font-size: 5rem;
+
+    color: var(--accent-gold);
+
+    margin-bottom: 20px;
+}
+
+.team-hero p {
+    max-width: 750px;
+
+    color: var(--text-secondary);
+
+    font-size: 1.2rem;
+
+    line-height: 1.8;
+}
+
+
+/* ================================= */
+/* TEAM SECTION */
+/* ================================= */
+
+.team-section {
+    width: 100%;
+
+    padding: 60px 7% 100px;
+}
+
+
+/* ================================= */
+/* TEAM GRID */
+/* ================================= */
+
+.team-grid {
+    width: 100%;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 30px;
+}

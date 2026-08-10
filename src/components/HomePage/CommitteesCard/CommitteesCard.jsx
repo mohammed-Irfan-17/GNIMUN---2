@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import "./CommitteesCard.css";
 
-import unhrc from "../../../assets/logos/mun-logo.jpeg";
-import unsc from "../../../assets/logos/mun-logo.jpeg";
-import disec from "../../../assets/logos/mun-logo.jpeg";
-import who from "../../../assets/logos/mun-logo.jpeg";
-import loksabha from "../../../assets/logos/mun-logo.jpeg";
+import unhrc from "../../../assets/logos/unhrc-logo.png";
+import disec from "../../../assets/logos/DISECLogo.png";
+import aippm from "../../../assets/logos/AIPPMLogo.jpg";
+import tfi from "../../../assets/logos/TFILogo.png";
+import ip from "../../../assets/logos/IPLogo.jpg";
 
 const committees = [        
     {
@@ -14,24 +14,24 @@ const committees = [
         name: "United Nations Human Rights Council"
     },
     {
-        image: unsc,
-        short: "UNSC",
-        name: "United Nations Security Council"
-    },
-    {
         image: disec,
         short: "DISEC",
-        name: "Disarmament & International Security"
+        name: "Disarmament and International Security Committee"
     },
     {
-        image: who,
-        short: "WHO",
-        name: "World Health Organization"
+        image: aippm,
+        short: "AIPPM",
+        name: "All India Political Parties Meet"
     },
     {
-        image: loksabha,
-        short: "LOK SABHA",
-        name: "Indian Parliament"
+        image: tfi,
+        short: "TFI",
+        name: "Telugu Film Industry"
+    },
+    {
+        image: ip,
+        short: "IP",
+        name: "International Press"
     }
 ];
 

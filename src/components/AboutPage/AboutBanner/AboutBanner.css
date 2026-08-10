@@ -1,5 +1,5 @@
 .about-banner{
-    min-height:90vh;
+      min-height: clamp(600px, 80vh, 850px);
   
     /* border-bottom:1px solid #37433D; */
 
@@ -10,6 +10,7 @@
 
     text-align:center;
     padding:0 10%;
+    margin-top:80px;
 }
 
 .about-banner h1{

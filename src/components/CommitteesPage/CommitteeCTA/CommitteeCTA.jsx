@@ -5,9 +5,7 @@ function CommitteeCTA() {
     <section className="committee-cta">
       <div className="committee-cta-content">
 
-        <span className="committee-cta-tag">
-          GNIMUN II
-        </span>
+        
 
         <h2>Found Your Committee?</h2>
 

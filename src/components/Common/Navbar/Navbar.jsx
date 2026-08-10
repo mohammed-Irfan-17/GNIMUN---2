@@ -15,7 +15,7 @@ function Navbar() {
                 <Link to="/about">About</Link>
                 <Link to="/committees">Committees</Link>
              <Link to="/team">Team</Link>
-                <Link to="/contact">Cotact</Link>
+                <Link to="/contact">Contact</Link>
                 
             </nav>
 

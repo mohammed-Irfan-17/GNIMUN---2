@@ -1,5 +1,5 @@
 .committee-cta {
-    min-height: 65vh;
+      min-height: clamp(600px, 80vh, 850px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,6 +10,7 @@
 
 .committee-cta-content {
     max-width: 750px;
+    /* justify-content: center; */
 }
 
 .committee-cta-tag {
@@ -24,14 +25,18 @@
 
 .committee-cta h2 {
     font-size: clamp(2.4rem, 5vw, 4rem);
-    color: var(--text-primary);
+       color:var(--accent);
     margin-bottom: 1.5rem;
+    font-size:4rem;
+    letter-spacing:2px;
 }
 
 .committee-cta p {
     color: var(--text-secondary);
     line-height: 1.8;
     margin-bottom: 2.5rem;
+    font-size:23px;
+    letter-spacing:1.2px;
 }
 
 /* Button */

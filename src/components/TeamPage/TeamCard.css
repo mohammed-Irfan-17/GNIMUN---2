@@ -1,6 +1,6 @@
 .team-card {
     width: 280px;
-    min-height: 390px;
+      /* min-height: clamp(600px, 80vh, 850px); */
 
     display: flex;
     flex-direction: column;
@@ -30,7 +30,7 @@
 
     border-color: var(--accent-gold);
 
-    transform: translateY(-10px);
+    transform: translateY(-15px);
 
     box-shadow:
         0 20px 50px rgba(0, 0, 0, 0.35),
@@ -65,9 +65,9 @@
 /* PHOTO HOVER */
 /* ================================= */
 
-.team-card:hover .team-member-img img {
+/* .team-card:hover .team-member-img img {
     transform: scale(1.04);
-}
+} */
 
 
 /* ================================= */

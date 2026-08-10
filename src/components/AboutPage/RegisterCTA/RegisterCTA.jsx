@@ -3,11 +3,10 @@ import "./RegisterCTA.css";
 function RegisterCTA() {
     return (
         <section className="register-cta">
-            <h2>Ready To Represent Your Nation?</h2>
+            <h2>Ready To Make an Impact?</h2>
 
             <p>
-                Join GNIMUN II and experience diplomacy, leadership, and global
-                collaboration alongside passionate delegates from across the country.
+                Step into the world of diplomacy, represent your nation, and be part of GNIMUN II.
             </p>
 
             <button>Register Now</button>

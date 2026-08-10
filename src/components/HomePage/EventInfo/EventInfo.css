@@ -1,6 +1,6 @@
 .event {
     padding: 80px 10%;
-    min-height: 50vh;
+ min-height: clamp(500px, 50vh, 850px);
     background: transparent;
     display: flex;
     flex-direction: column;

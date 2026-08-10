@@ -81,21 +81,21 @@ function Contact() {
 
                                 <div className="social-links">
 
-                                    <a
+                                    <button
                                         href="#"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
                                         Instagram
-                                    </a>
+                                    </button>
 
-                                    <a
+                                    <button
                                         href="#"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
                                         LinkedIn
-                                    </a>
+                                    </button>
 
                                 </div>
 

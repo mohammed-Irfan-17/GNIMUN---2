@@ -4,7 +4,7 @@
 
 .committee-detail-card-section {
     width: 100%;
-    min-height: 95vh;
+       min-height: clamp(600px, 80vh, 850px);
 
     display: flex;
     justify-content: center;
@@ -120,7 +120,7 @@
     align-items: center;
 
     gap: 18px;
-
+margin-top:-50px;
     margin-bottom: 25px;
 }
 
@@ -130,11 +130,11 @@
 /* ================================= */
 
 .committee-detail-logo {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
   border-radius : 50%;
-    object-fit: contain;
-
+    object-fit: cover;
+/* margin-top:10px; */
     flex-shrink: 0;
 }
 
@@ -144,10 +144,10 @@
 /* ================================= */
 
 .committee-detail-title h2 {
-    font-size: 2.8rem;
+    font-size: 3rem;
 
-    color: var(--accent-gold);
-
+        color:var(--accent);
+    letter-spacing:10px;
     margin: 0 0 5px 0;
 }
 
@@ -157,30 +157,13 @@
 /* ================================= */
 
 .committee-detail-title h3 {
-    font-size: 1.45rem;
+    font-size: 2rem;
 
     color: var(--text-primary);
-
+letter-spacing:2px;
     font-weight: 500;
 
     margin: 0;
-}
-
-
-/* ================================= */
-/* TAGLINE */
-/* ================================= */
-
-.committee-detail-tagline {
-    font-size: 1.2rem;
-
-    color: var(--text-secondary);
-
-    font-style: italic;
-
-    margin: 0;
-
-    line-height: 1.8;
 }
 
 
@@ -195,7 +178,7 @@
 
     background: rgba(199, 163, 74, 0.18);
 
-    margin: 22px 0;
+    /* margin: 22px 0; */
 }
 
 
@@ -204,10 +187,10 @@
 /* ================================= */
 
 .committee-detail-overview {
-    font-size: 1.08rem;
-
-    line-height: 2;
-
+    font-size: 1.3rem;
+width:100%;
+    line-height: 1.5;
+  letter-spacing:1px;
     color: var(--text-secondary);
 
     margin: 0;
@@ -221,9 +204,9 @@
 .committee-detail-content h4 {
     color: var(--accent-gold);
 
-    font-size: 1.35rem;
-
-    margin: 0 0 12px 0;
+    font-size: 2rem;
+  letter-spacing:5px;
+    margin-top:20px;
 }
 
 
@@ -234,11 +217,11 @@
 .committee-detail-agenda {
     color: var(--text-primary);
 
-    font-size: 1.08rem;
+    font-size: 1.5rem;
 
     line-height: 1.8;
-
-    margin: 0;
+letter-spacing:1px;
+    margin-top:10px;
 }
 
 

@@ -1,5 +1,5 @@
 .navbar{
-    height:80px;
+    height:100px;
   background: transparent;
 border-bottom: 1px solid var(--border-color);
     display:flex;
@@ -37,10 +37,13 @@ border-bottom: 1px solid var(--border-color);
   
     border-radius:50%;
     padding:0px;
+    cursor:pointer;
 }
 .logo h2{
     color: var(--text-primary);
-    font-size:24px;
+    font-size:30px;
+    letter-spacing:6px;
+    cursor:pointer;
 }
 .navbar nav {
     display: flex;
@@ -56,8 +59,8 @@ border-bottom: 1px solid var(--border-color);
 
     text-decoration: none;
 
-    font-size: 20px;
-
+    font-size: 30px;
+    letter-spacing:3px;
     transition: color 0.3s ease;
 }
 

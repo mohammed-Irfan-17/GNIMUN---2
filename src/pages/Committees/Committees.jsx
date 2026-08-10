@@ -6,65 +6,65 @@ import CommitteeHero from "../../components/CommitteesPage/CommitteeHero/Committ
 import CommitteeSection from "../../components/CommitteesPage/CommitteeSection/CommitteSection"
 import CommitteeCTA from "../../components/CommitteesPage/CommitteeCTA/CommitteeCTA";
 // Logos
-import unscLogo from "../../assets/logos/mun-logo.jpeg";
-import unhrcLogo from "../../assets/logos/mun-logo.jpeg";
-import whoLogo from "../../assets/logos/mun-logo.jpeg";
-import disecLogo from "../../assets/logos/mun-logo.jpeg";
-import ecosocLogo from "../../assets/logos/mun-logo.jpeg";
-
+import UNHRCLogo from "../../assets/logos/unhrc-logo.png";
+import DISECLogo from "../../assets/logos/DISECLogo.png";
+import AIPPMLogo from "../../assets/logos/AIPPMLogo.jpg";
+import TFILogo from "../../assets/logos/TFILogo.png";
+import IPLogo from "../../assets/logos/IPLogo.jpg";
+//images
+import UNHRCImage from "../../assets/images/unhrc.png";
+import DISECImage from "../../assets/images/DISECImage.png";
+import AIPPMImage from "../../assets/images/AIPPMImage.png";
+import TFIImage from "../../assets/images/TFIImage.png";
+import IPImage from "../../assets/images/IPimage.jpg";
 const committees = [
   {
-    image: unscLogo,
-    logo: unscLogo,
-    shortName: "UNSC",
-    fullName: "United Nations Security Council",
-    tagline: "Where diplomacy meets decisive action.",
+    image: UNHRCImage,
+    logo: UNHRCLogo,
+    shortName: "UNHRC",
+    fullName: "United Nations Human Rights Council",
     overview:
-      "The United Nations Security Council is responsible for maintaining international peace and security through diplomacy, negotiation, and collective decision-making among member states.",
+      "The United Nations Human Rights Council (UNHRC) is an international body dedicated to promoting and protecting human rights across the world. Delegates discuss major human-rights challenges, examine international concerns, and work toward practical and diplomatic solutions.Through debate, negotiation, and resolution drafting, delegates are expected to represent their assigned countries.",
     agenda: "Addressing Maritime Security in the Indo-Pacific Region",
   },
 
   {
-    image: unhrcLogo,
-    logo: unhrcLogo,
-    shortName: "UNHRC",
-    fullName: "United Nations Human Rights Council",
-    tagline: "Championing dignity, justice, and equality.",
+    image: DISECImage,
+    logo: DISECLogo,
+    shortName: "DISEC",
+    fullName: "Disarmament and International Security Committee",
     overview:
-      "The Human Rights Council promotes and protects human rights worldwide by addressing violations, encouraging equality, and strengthening international cooperation.",
+      "The Disarmament and International Security Committee (DISEC) addresses issues related to international peace, security, disarmament, and the prevention of armed conflict. Delegates examine threats to global stability and negotiate diplomatic solutions . The committee challenges delegates to balance national security interests with the broader goal of maintaining international peace and stability.",
     agenda: "Strengthening International Protection of Refugees",
   },
 
   {
-    image: whoLogo,
-    logo: whoLogo,
-    shortName: "WHO",
-    fullName: "World Health Organization",
-    tagline: "Building a healthier world together.",
+    image: AIPPMImage,
+    logo: AIPPMLogo,
+    shortName: "AIPPM",
+    fullName: "All India Political Parties Meet",
     overview:
-      "The World Health Organization focuses on improving global public health by addressing diseases, coordinating international responses, and strengthening healthcare systems.",
+      "The All India Political Parties Meet (AIPPM) brings together representatives of major Indian political parties to deliberate on important national issues. Unlike traditional international committees, delegates operate within the political and constitutional framework of India . The committee emphasizes political strategy, negotiation, coalition-building, and realistic policymaking while allowing delegates to represent the perspectives and positions of their assigned political parties.",
     agenda: "Preparing for Future Global Health Emergencies",
   },
 
   {
-    image: disecLogo,
-    logo: disecLogo,
-    shortName: "DISEC",
-    fullName: "Disarmament and International Security Committee",
-    tagline: "Securing peace through cooperation.",
+    image: TFIImage,
+    logo: TFILogo,
+    shortName: "TFI",
+    fullName: "Telugu Film Industry",
     overview:
-      "DISEC discusses international security, arms control, and peacekeeping by encouraging diplomatic dialogue and collaborative solutions among nations.",
+      "The Telugu Film Industry (TFI) is one of India's major regional film industries, known for its diverse storytelling, influential artists, and significant cultural impact. The committee provides delegates with an opportunity to step into the roles of prominent personalities and stakeholders from the world of Telugu cinema . Delegates will navigate discussions, negotiations, creative differences, and industry challenges while representing the perspectives and interests of their assigned roles.",
     agenda: "Regulating Autonomous Weapons Systems",
   },
 
   {
-    image: ecosocLogo,
-    logo: ecosocLogo,
-    shortName: "ECOSOC",
-    fullName: "Economic and Social Council",
-    tagline: "Driving sustainable global development.",
+    image: IPImage,
+    logo: IPLogo,
+    shortName: "IP",
+    fullName: "International Press",
     overview:
-      "ECOSOC promotes sustainable development, economic growth, and international cooperation to address global social and economic challenges.",
+      "The International Press provides delegates with the opportunity to take on the role of journalists and media representatives covering the proceedings of the conference. Members of the press observe committee sessions, interact with delegates, and report on important developments . Through articles, interviews, and creative reporting, the International Press plays an essential role in documenting the conference and presenting its events from an independent perspective.",
     agenda: "Promoting Inclusive Economic Recovery",
   },
 ];

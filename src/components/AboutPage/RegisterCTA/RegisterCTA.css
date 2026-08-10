@@ -1,5 +1,5 @@
 .register-cta{
-    min-height:65vh;
+      min-height: clamp(600px, 80vh, 850px);
     padding:80px 10%;
     display:flex;
     flex-direction:column;
@@ -10,7 +10,7 @@
 }
 
 .register-cta h2{
-    font-size:3.5rem;
+    font-size:5rem;
     color:#C7A34A;
     margin-bottom:25px;
 }
@@ -18,9 +18,10 @@
 .register-cta p{
     max-width:700px;
     color:var(--text-secondary);
-    font-size:1.2rem;
+    font-size:1.7rem;
     line-height:1.8;
     margin-bottom:40px;
+    letter-spacing:2px;
 }
 .register-cta button{
     padding:16px 42px;

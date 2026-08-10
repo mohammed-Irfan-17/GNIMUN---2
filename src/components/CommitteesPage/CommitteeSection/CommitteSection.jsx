@@ -5,7 +5,6 @@ function CommitteeSection({
   logo,
   shortName,
   fullName,
-  tagline,
   overview,
   agenda,
   reverse,
@@ -35,9 +34,7 @@ function CommitteeSection({
 
           </div>
 
-          <p className="committee-detail-tagline">
-            {tagline}
-          </p>
+         
 
           <div className="committee-detail-divider"></div>
 

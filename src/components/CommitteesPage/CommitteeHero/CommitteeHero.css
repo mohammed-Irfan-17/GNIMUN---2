@@ -1,5 +1,5 @@
 .committee-hero {
-    min-height: 100vh;
+    min-height: clamp(600px, 80vh, 850px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,6 +19,7 @@
     font-weight: 600;
     letter-spacing: 0.3rem;
     text-transform: uppercase;
+    margin-top:70px;
 }
 
 .committee-hero h1 {

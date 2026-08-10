@@ -1,4 +1,5 @@
 import "./Highlights.css";
+import logo from "../../../assets/pre-event/1.jpeg";
 function Highlights(){
     return (
         <>
@@ -6,9 +7,24 @@ function Highlights(){
     <h2>Previous Event Highlights</h2>
 
     <div className="gallery">
-        <div className="gallery-box">Image</div>
-        <div className="gallery-box">Image</div>
-        <div className="gallery-box">Image</div>
+        <div className="gallery-box">
+    <img src={logo} alt="GNIMUN Logo" />
+</div>
+   <div className="gallery-box">
+    <img src={logo} alt="GNIMUN Logo" />
+</div>
+<div className="gallery-box">
+    <img src={logo} alt="GNIMUN Logo" />
+</div>
+<div className="gallery-box">
+    <img src={logo} alt="GNIMUN Logo" />
+</div>
+<div className="gallery-box">
+    <img src={logo} alt="GNIMUN Logo" />
+</div>
+<div className="gallery-box">
+    <img src={logo} alt="GNIMUN Logo" />
+</div>
     </div>
 
     <div className="stats">

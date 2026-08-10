@@ -4,7 +4,7 @@ function SecretaraitCard(){
     return (
         <>
         <section className="secretariat">
-    <h2>Secretariat</h2>
+    <h2>Secretariats</h2>
 
     <div className="secretariat-grid">
         <div className="member-card">

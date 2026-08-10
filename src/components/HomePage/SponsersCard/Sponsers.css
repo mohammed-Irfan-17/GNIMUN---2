@@ -1,6 +1,6 @@
 .sponsors{
-    padding:90px 10%;
-    min-height:70vh;
+    padding:90px 5%;
+ min-height: clamp(600px, 80vh, 800px);
     background:transparent;
 }
 .sponsors h2{

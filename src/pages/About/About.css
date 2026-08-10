@@ -1,5 +1,7 @@
 .about-page {
-    min-height: 100vh;
+  
+    min-height: clamp(600px, 80vh, 850px);
+
 
     display: flex;
     justify-content: center;

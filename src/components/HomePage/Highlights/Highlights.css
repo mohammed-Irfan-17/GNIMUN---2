@@ -1,11 +1,14 @@
 .highlights {
     padding:80px 10%;
     background:transparent;
+     min-height: clamp(600px, 80vh, 850px);
 }
 .highlights h2{
     text-align:center;
    color:var(--accent);
     margin-bottom:40px;
+    font-size:60px;
+    letter-spacing:1px;
 }
 .highlights .gallery{
     display:grid;
@@ -26,6 +29,18 @@
 }
 .highlights .gallery-box:hover{
     border-color:var(--accent);
+}
+.gallery-box {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gallery-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
 .highlights .stats{
     display:grid;

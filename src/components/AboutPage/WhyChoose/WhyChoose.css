@@ -1,5 +1,5 @@
 .why{
-    min-height:100vh;
+    min-height: clamp(600px, 80vh, 850px);
     padding:80px 10%;
     display:flex;
     flex-direction:column;

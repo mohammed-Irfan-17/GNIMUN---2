@@ -1,5 +1,6 @@
 .team-page {
     width: 100%;
+      
 }
 
 
@@ -8,23 +9,25 @@
 /* ================================= */
 
 .team-hero {
-    min-height: 55vh;
+       /* min-height: clamp(600px, 80vh, 850px); */
 
     display: flex;
     flex-direction: column;
-
-    justify-content: center;
+  min-height:220px;
+    /* justify-content: center; */
     align-items: center;
 
     text-align: center;
-
-    padding: 80px 7%;
+margin-top:120px;
+margin-bottom:0;
+    /* padding: 80px 7%; */
 }
 
 .team-hero h1 {
     font-size: 5rem;
 
-    color: var(--accent-gold);
+       color:var(--accent);
+       letter-spacing:5px;
 
     margin-bottom: 20px;
 }
@@ -34,8 +37,8 @@
 
     color: var(--text-secondary);
 
-    font-size: 1.2rem;
-
+    font-size: 1.5rem;
+  letter-spacing:2px;
     line-height: 1.8;
 }
 

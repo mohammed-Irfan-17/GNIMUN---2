@@ -2,7 +2,8 @@ import "./Team.css";
 import TeamCard from "../../components/TeamPage/Teamcard";
 import Navbar from "../../components/Common/Navbar/Navbar";
 import Footer from "../../components/Common/Footer/Footer";
-import image from "../../assets/logos/mun-logo.jpeg";
+import image from "../../assets/icons/photo edit.jpeg";
+// import image from "../../assets/images/DISECImage.png";
 
 function Team() {
 
@@ -21,7 +22,43 @@ function Team() {
             name: "Member Name",
             role: "Director General",
             image: image
-        }
+        },
+        {
+            name: "Member Name",
+            role: "Director General",
+            image: image
+        },
+        {
+            name: "Member Name",
+            role: "Director General",
+            image: image
+        },
+        {
+            name: "Member Name",
+            role: "Director General",
+            image: image
+        },
+        {
+            name: "Member Name",
+            role: "Director General",
+            image: image
+        },
+        {
+            name: "Member Name",
+            role: "Director General",
+            image: image
+        },
+        {
+            name: "Member Name",
+            role: "Director General",
+            image: image
+        },
+        {
+            name: "Member Name",
+            role: "Director General",
+            image: image
+        },
+        
     ];
 
     return (

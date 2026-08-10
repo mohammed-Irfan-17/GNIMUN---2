@@ -9,16 +9,19 @@
 .footer .footer-left h2{
     color:var(--accent);
     margin-bottom:10px;
+    font-size:25px;
 }
 .footer .footer-left p{
     color:var(--text-secondary);
-    line-height:1.6;
+    line-height:2;
+    font-size:19px;
 }
 .footer .footer-right h3{
 
     color:var(--text-primary);
 
     margin-bottom:10px;
+    font-size:25px;
 
 }
 
@@ -44,6 +47,7 @@
 .footer .footer-center h3{
     color:var(--text-primary);
     margin-bottom:10px;
+    font-size:25px;
 }
 .footer .footer-center a{
 

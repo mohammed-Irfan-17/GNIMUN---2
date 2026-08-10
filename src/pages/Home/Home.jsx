@@ -8,7 +8,7 @@ import Event from "../../components/HomePage/EventInfo/EventInfo";
 import Secretarait from "../../components/HomePage/SecretaraitCard/SecretaraitCard";
 import Highlights from "../../components/HomePage/Highlights/Highlights";
 import Sponsers from "../../components/HomePage/SponsersCard/Sponsers";
-import ContactInfo from "../../components/HomePage/ContactInfo/ContactInfo";
+
 
 import "./Home.css";
 
@@ -24,7 +24,26 @@ function Home() {
             <Secretarait/>
             <Highlights/>
             <Sponsers/>
-            <ContactInfo/>
+    <section className="home-register-cta">
+    <div className="home-register-content">
+
+        <h2>Ready To Represent Your Nation?</h2>
+
+        <p>
+            Join GNIMUN II and experience diplomacy, leadership, and global collaboration
+            <br />
+            alongside passionate delegates from across the country.
+        </p>
+
+        <button className="home-register-button">
+            Register Now
+        </button>
+
+    </div>
+</section>
+
+
+
             <Footer/>
         </>
     );

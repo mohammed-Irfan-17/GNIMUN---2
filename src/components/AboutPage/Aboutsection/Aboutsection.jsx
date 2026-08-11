@@ -1,4 +1,5 @@
 import "./Aboutsection.css";
+import Reveal from "../../Common/Animations/Reveal";
 function Aboutsection(){
     return (
       <>
@@ -8,7 +9,8 @@ function Aboutsection(){
 
         <div className="section-heading">
 
-            <span>ABOUT GNIMUN</span>
+            <Reveal direction="left">
+                <span>ABOUT GNIMUN</span>
 
             <h2>Shaping Tomorrow's Diplomats</h2>
 
@@ -18,12 +20,14 @@ function Aboutsection(){
                 diplomacy, negotiation, research, and public speaking
                 skills while discussing real-world global issues.
             </p>
+            </Reveal>
 
         </div>
 
         <div className="about-grid">
 
-            <div className="about-card">
+            <Reveal direction="left">
+                <div className="about-card">
 
                 <h3>Our Vision</h3>
 
@@ -34,8 +38,10 @@ function Aboutsection(){
                 </p>
 
             </div>
+            </Reveal>
 
-            <div className="about-card">
+          <Reveal direction="up">
+              <div className="about-card">
 
                 <h3>Our Mission</h3>
 
@@ -46,8 +52,10 @@ function Aboutsection(){
                 </p>
 
             </div>
+          </Reveal>
 
-            <div className="about-card">
+          <Reveal direction="right">
+              <div className="about-card">
 
                 <h3>Our Purpose</h3>
 
@@ -56,8 +64,8 @@ function Aboutsection(){
                     exchange ideas, understand diverse perspectives,
                     and prepare for global challenges.
                 </p>
-
             </div>
+          </Reveal>
 
         </div>
 

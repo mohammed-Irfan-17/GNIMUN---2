@@ -1,9 +1,12 @@
+import Reveal from "../../Common/Animations/Reveal";
 import "./ShapingLeaders.css";
+// import Reveal from "../../Common/Animations/Reveal";
 
 function ShapingLeaders() {
     return (
         <section className="leaders">
-            <div className="leaders-left">
+            <Reveal direction="left">
+                <div className="leaders-left">
                 <h2>Shaping The Leaders Of Tomorrow</h2>
                 <p>
                     GNIMUN II is a premier Model United Nations conference
@@ -15,22 +18,29 @@ function ShapingLeaders() {
                     this is irfan , this is only the part of content
                 </p>
             </div>
+            </Reveal>
 
             <div className="leaders-right">
-                <div className="info-card">
+                <Reveal direction="right">
+                    <div className="info-card">
                     <h3>Diplomacy</h3>
                     <p>Develop negotiation and conflict resolution skills through meaningful debates.</p>
                 </div>
+                </Reveal>
 
-                <div className="info-card">
+                <Reveal direction="right">
+                    <div className="info-card">
                     <h3>Leadership</h3>
                     <p>Build confidence, teamwork, and decision-making abilities in every committee.</p>
                 </div>
+                </Reveal>
 
-                <div className="info-card">
+                <Reveal direction="right">
+                    <div className="info-card">
                     <h3>Global Perspective</h3>
                     <p>Explore international issues while understanding diverse cultures and viewpoints.</p>
                 </div>
+                </Reveal>
             </div>
         </section>
     );

@@ -1,24 +1,17 @@
 import "./SecretaraitCard.css";
 import photo from "../../../assets/logos/mun-logo.jpeg";
+import Reveal from "../../Common/Animations/Reveal";
 function SecretaraitCard(){
     return (
         <>
         <section className="secretariat">
-    <h2>Secretariats</h2>
+    <Reveal direction="left">
+        <h2>Secretariats</h2>
+    </Reveal>
 
-    <div className="secretariat-grid">
-        <div className="member-card">
-           <div className="member-img">
-    <img src={photo} alt="Member" />
-</div>
-            <h3>Name</h3>
-            <p>Secretary General</p>
-            <p className="message">
-"Message or short vision statement goes here..."
-</p>
-        </div>
-
-        <div className="member-card">
+    <Reveal direction="left">
+        <div className="secretariat-grid">
+           <div className="member-card">
          <div className="member-img">
     <img src={photo} alt="Member" />
 </div>
@@ -29,7 +22,17 @@ function SecretaraitCard(){
 </p>
         </div>
 
-        <div className="member-card">
+            <div className="member-card">
+         <div className="member-img">
+    <img src={photo} alt="Member" />
+</div>
+            <h3>Name</h3>
+            <p>Director General</p>
+            <p className="message">
+"Message or short vision statement goes here..."
+</p>
+        </div>
+<div className="member-card">
              <div className="member-img">
     <img src={photo} alt="Member" />
 </div>
@@ -42,6 +45,7 @@ function SecretaraitCard(){
 
        
     </div>
+    </Reveal>
 </section>
         </>
     );

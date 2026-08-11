@@ -1,8 +1,9 @@
 import "./Footer.css";
-
+import Reveal from "../Animations/Reveal";
 function Footer() {
     return (
-        <footer className="footer">
+       <Reveal direction="up">
+         <footer className="footer">
 
             <div className="footer-left">
 
@@ -39,6 +40,7 @@ function Footer() {
             </div>
 
         </footer>
+       </Reveal>
     );
 }
 

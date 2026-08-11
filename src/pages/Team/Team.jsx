@@ -4,6 +4,7 @@ import Navbar from "../../components/Common/Navbar/Navbar";
 import Footer from "../../components/Common/Footer/Footer";
 import image from "../../assets/icons/photo edit.jpeg";
 // import image from "../../assets/images/DISECImage.png";
+import Reveal from "../../components/Common/Animations/Reveal";
 
 function Team() {
 
@@ -67,13 +68,17 @@ function Team() {
         <main className="team-page">
 
             <section className="team-hero">
-                <h1>Our Team</h1>
+                <Reveal direction="up">
+    <h1>Our Team</h1>
+</Reveal>
 
-                <p>
+              <Reveal direction="up">
+                  <p>
                     Meet the people behind GNIMUN II,
                     working together to create an exceptional
                     Model United Nations experience.
                 </p>
+              </Reveal>
             </section>
 
 

@@ -15,9 +15,9 @@
     display: inline-block;
     margin-bottom: 2rem;
     color: var(--accent-gold);
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     font-weight: 600;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.4rem;
     text-transform: uppercase;
     margin-top:70px;
 }
@@ -33,7 +33,7 @@
     max-width: 700px;
     margin: 0 auto;
     color: var(--text-secondary);
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     line-height: 1.8;
 }
 

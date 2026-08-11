@@ -13,7 +13,7 @@
     margin-bottom:20px;
 }
 
-.why>p{
+.why p{
     max-width:700px;
     margin:0 auto 60px;
     color:var(--text-secondary);

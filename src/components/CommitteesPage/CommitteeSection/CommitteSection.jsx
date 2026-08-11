@@ -1,4 +1,5 @@
 import "./CommitteeSection.css";
+import Reveal from "../../Common/Animations/Reveal";
 
 function CommitteeSection({
   image,
@@ -11,7 +12,8 @@ function CommitteeSection({
 }) {
   return (
     <section className="committee-detail-card-section">
-      <div className={`committee-detail-card ${reverse ? "reverse" : ""}`}>
+      <Reveal direction="right">
+        <div className={`committee-detail-card ${reverse ? "reverse" : ""}`}>
 
         <div className="committee-detail-image">
           <img src={image} alt={shortName} />
@@ -53,6 +55,7 @@ function CommitteeSection({
         </div>
 
       </div>
+      </Reveal>
     </section>
   );
 }

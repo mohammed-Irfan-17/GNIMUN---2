@@ -59,7 +59,7 @@
     border-color:var(--accent);
 }
 .highlights .stat-card h3{
-    color:var(--accent);
+    color:#C8A45A;
     font-size:36px;
     margin-bottom:10px;
 }

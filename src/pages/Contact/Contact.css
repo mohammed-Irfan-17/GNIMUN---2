@@ -23,12 +23,13 @@
     text-align: center;
 
     padding: 80px 7%;
+    margin-top:40px;
 }
 
 .contact-hero h1 {
     font-size: 5rem;
 
-    color: var(--accent-gold);
+    color: #C7A34A;
 
     margin: 0 0 20px;
 }
@@ -38,7 +39,7 @@
 
     color: var(--text-secondary);
 
-    font-size: 1.2rem;
+    font-size: 1.7rem;
 
     line-height: 1.8;
 
@@ -61,311 +62,28 @@
 /* MAIN CONTAINER */
 /* ================================= */
 
-.contact-container {
-    width: 100%;
-    max-width: 1500px;
-
-    min-height: 550px;
-
-    margin: 0 auto;
-
-    display: flex;
-
-    gap: 40px;
-}
-
-
 /* ================================= */
-/* CONTACT CARDS */
+/* CONTACT REVEAL WRAPPERS */
 /* ================================= */
 
-.contact-info,
-.contact-location {
-    background: rgba(18, 32, 24, 0.28);
-
-    backdrop-filter: blur(18px);
-
-    border: 1px solid rgba(199, 163, 74, 0.65);
-
-    border-radius: 18px;
-
-    transition:
-        transform 0.35s ease,
-        border-color 0.35s ease;
-}
-
-
-/* ================================= */
-/* CARD HOVER */
-/* ================================= */
-
-.contact-info:hover,
-.contact-location:hover {
-    transform: translateY(-10px);
-
-    border-color: var(--accent-gold);
-}
-
-
-/* ================================= */
-/* LEFT CONTACT CARD */
-/* ================================= */
-
-.contact-info {
+.contact-reveal-left {
     flex: 1;
-
-    padding: 50px;
-
-    display: flex;
-
-    flex-direction: column;
-
-    justify-content: center;
+    min-width: 0;
 }
 
-
-/* ================================= */
-/* CONTACT HEADING */
-/* ================================= */
-
-.contact-info h2 {
-    color: var(--accent-gold);
-
-    font-size: 2.2rem;
-
-    margin: 0 0 40px;
-}
-
-
-/* ================================= */
-/* CONTACT ITEMS */
-/* ================================= */
-
-.contact-item {
-    margin-bottom: 30px;
-}
-
-.contact-label {
-    display: block;
-
-    color: var(--accent-gold);
-
-    font-size: 1rem;
-
-    text-transform: uppercase;
-
-    letter-spacing: 1.5px;
-
-    margin-bottom: 10px;
-}
-
-.contact-item p {
-    color: var(--text-primary);
-
-    font-size: 1.05rem;
-
-    line-height: 1.8;
-
-    margin: 0 0 12px;
-}
-
-.contact-item p span {
-    color: var(--text-secondary);
-}
-
-
-/* ================================= */
-/* EMAIL */
-/* ================================= */
-
-.contact-item > a {
-    color: var(--text-primary);
-
-    text-decoration: none;
-
-    font-size: 1.1rem;
-
-    transition: color 0.3s ease;
-}
-
-.contact-item > a:hover {
-    color: var(--accent-gold);
-}
-
-
-/* ================================= */
-/* SOCIAL LINKS */
-/* ================================= */
-
-.social-links {
-    display: flex;
-
-    gap: 15px;
-
-    flex-wrap: wrap;
-}
-
-.social-links a {
-    padding: 10px 22px;
-
-    border: 1px solid rgba(199, 163, 74, 0.3);
-
-    border-radius: 50px;
-
-    color: var(--text-primary);
-
-    text-decoration: none;
-
-    transition:
-        transform 0.3s ease,
-        color 0.3s ease,
-        border-color 0.3s ease;
-}
-
-.social-links a:hover {
-    color: var(--accent-gold);
-
-    border-color: var(--accent-gold);
-
-    transform: translateY(-4px);
-}
-
-
-/* ================================= */
-/* LOCATION CARD */
-/* ================================= */
-
-.contact-location {
+.contact-reveal-right {
     flex: 0 0 42%;
-
-    padding: 50px;
-
-    display: flex;
-
-    flex-direction: column;
-
-    justify-content: center;
-
-    align-items: flex-start;
+    min-width: 0;
 }
 
 
-/* ================================= */
-/* LOCATION ICON */
-/* ================================= */
+/* Keep cards at their original size */
 
-.location-icon {
-    font-size: 3rem;
-
-    margin-bottom: 20px;
-}
-
-
-/* ================================= */
-/* LOCATION HEADING */
-/* ================================= */
-
-.contact-location h2 {
-    color: var(--text-primary);
-
-    font-size: 2rem;
-
-    margin: 5px 0 15px;
-}
-
-
-/* ================================= */
-/* LOCATION TEXT */
-/* ================================= */
-
-.contact-location p {
-    color: var(--text-secondary);
-
-    font-size: 1.1rem;
-
-    line-height: 1.9;
-
-    margin: 0 0 30px;
-}
-
-
-/* ================================= */
-/* GOOGLE MAPS BUTTON */
-/* ================================= */
-
-.location-btn {
-    position: relative;
-
-    display: inline-block;
-
-    padding: 14px 32px;
-
-    background: #060707;
-
-    color: var(--accent-gold);
-
-    border: 2px solid var(--border);
-
-    border-radius: 50px;
-
-    text-decoration: none;
-
-    font-size: 1rem;
-
-    font-weight: 600;
-
-    transition:
-        transform 0.35s ease,
-        color 0.35s ease,
-        border-color 0.35s ease;
-
-    overflow: hidden;
-}
-
-
-/* ================================= */
-/* BUTTON HOVER */
-/* ================================= */
-
-.location-btn:hover {
-    background: #060707;
-
-    color: var(--text-primary);
-
-    border-color: var(--accent-gold);
-
-    transform: translateY(-8px);
-}
-
-
-/* ================================= */
-/* OPTIONAL GOLD LINE UNDER BUTTON */
-/* ================================= */
-
-.location-btn::before {
-    content: "";
-
-    position: absolute;
-
-    left: 50%;
-
-    bottom: -18px;
-
-    transform: translateX(-50%);
-
-    width: 0;
-
-    height: 4px;
-
-    background: var(--accent-gold);
-
-    border-radius: 10px;
-
-    transition: width 0.35s ease;
-}
-
-.location-btn:hover::before {
-    width: 70%;
+.contact-reveal-left .contact-info,
+.contact-reveal-right .contact-location {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
 }
 
 
@@ -375,135 +93,17 @@
 
 @media (max-width: 900px) {
 
-    .contact-container {
-        flex-direction: column;
-    }
-
-    .contact-info,
-    .contact-location {
+    .contact-reveal-left,
+    .contact-reveal-right {
         width: auto;
-
         flex: none;
     }
 
 }
 
 
-/* ================================= */
-/* TABLET / MOBILE */
-/* ================================= */
-
-@media (max-width: 600px) {
-
-    .contact-hero {
-        min-height: 45vh;
-
-        padding: 60px 6%;
-    }
-
-    .contact-hero h1 {
-        font-size: 3.2rem;
-    }
-
-    .contact-hero p {
-        font-size: 1rem;
-    }
-
-    .contact-section {
-        padding: 30px 6% 70px;
-    }
-
-    .contact-info,
-    .contact-location {
-        padding: 30px;
-    }
-
-    .contact-info h2 {
-        font-size: 1.8rem;
-    }
-
-    .contact-location h2 {
-        font-size: 1.6rem;
-    }
-
-    .contact-location p {
-        font-size: 1rem;
-    }
-
-    .social-links {
-        gap: 10px;
-    }
-
-    .social-links a {
-        padding: 9px 17px;
-    }
-
-    .location-btn {
-        padding: 12px 24px;
-    }
-
-}/* ================================= */
-/* CONTACT PAGE */
-/* ================================= */
-
-.contact-page {
-    width: 100%;
-}
 
 
-/* ================================= */
-/* HERO */
-/* ================================= */
-
-.contact-hero {
-    min-height: 55vh;
-
-    display: flex;
-    flex-direction: column;
-
-    justify-content: center;
-    align-items: center;
-
-    text-align: center;
-
-    padding: 80px 7%;
-}
-
-.contact-hero h1 {
-    font-size: 5rem;
-
-    color: var(--accent-gold);
-
-    margin: 0 0 20px;
-}
-
-.contact-hero p {
-    max-width: 750px;
-
-    color: var(--text-secondary);
-
-    font-size: 1.2rem;
-
-    line-height: 1.8;
-
-    margin: 0;
-}
-
-
-/* ================================= */
-/* CONTACT SECTION */
-/* ================================= */
-
-.contact-section {
-    width: 100%;
-
-    padding: 40px 7% 100px;
-}
-
-
-/* ================================= */
-/* MAIN CONTAINER */
-/* ================================= */
 
 .contact-container {
     width: 100%;

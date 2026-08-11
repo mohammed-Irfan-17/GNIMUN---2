@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./CommitteesCard.css";
+import Reveal from "../../Common/Animations/Reveal";
 
 import unhrc from "../../../assets/logos/unhrc-logo.png";
 import disec from "../../../assets/logos/DISECLogo.png";
@@ -39,7 +40,8 @@ function CommitteesCard() {
     return (
         <section className="committees section">
 
-            <h2 className="section-title">
+            <Reveal direction="left">
+                <h2 className="section-title">
                 Our Committees
             </h2>
 
@@ -48,10 +50,12 @@ function CommitteesCard() {
                 global collaboration come together.
             </p>
 
+            </Reveal>
             <div className="committee-grid">
 
                 {committees.map((committee,index)=>(
-    <div className="committee-card" key={index}>
+   <Reveal direction="up">
+     <div className="committee-card" key={index}>
 
         <div className="committee-logo">
             <img
@@ -67,12 +71,15 @@ function CommitteesCard() {
         </div>
 
     </div>
+   </Reveal>
 ))}
 
             </div>
-<Link to="/committees" className="view-btn">
+<Reveal direction="left">
+    <Link to="/committees" className="view-btn">
     View All Committees 
 </Link>
+</Reveal>
         </section>
     );
 }

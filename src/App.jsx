@@ -5,6 +5,7 @@ import About from "./pages/About/About";
 import Committees from "./pages/Committees/Committees";
 import Contact from "./pages/Contact/Contact";
 import Team from "./pages/Team/Team";
+import Highlights from "./pages/Highlights/Highlights";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
             <Route path="/committees" element={<Committees />} />
                 <Route path="/team" element={<Team />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path ="highlights" element={<Highlights/>}/>
         </Routes>
     );
 }

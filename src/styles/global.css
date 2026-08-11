@@ -92,3 +92,49 @@ button,
     background: var(--bg-card);
     border: 1px solid var(--border-color);
 } 
+/* =========================
+   SCROLL REVEAL
+========================= */
+
+.reveal {
+    opacity: 0;
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s ease;
+}
+
+
+/* Bottom → Up */
+
+.reveal-up {
+    transform: translateY(50px);
+}
+
+
+/* Top → Down */
+
+.reveal-down {
+    transform: translateY(-50px);
+}
+
+
+/* Left → Right */
+
+.reveal-left {
+    transform: translateX(-150px);
+}
+
+
+/* Right → Left */
+
+.reveal-right {
+    transform: translateX(150px);
+}
+
+
+/* Visible */
+
+.reveal-visible {
+    opacity: 1;
+    transform: translate(0);
+}

@@ -34,3 +34,102 @@
     font-size: 1.5rem;
     line-height: 1.8;
 }
+/* =====================================================
+   MOBILE HOME REGISTER CTA
+   ===================================================== */
+
+@media (max-width: 767px) {
+
+    .home-register-cta {
+        width: 100%;
+
+        box-sizing: border-box;
+
+        min-height: 450px;
+
+        padding: 70px 20px;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        text-align: center;
+
+        margin-top: 0;
+
+        overflow: hidden;
+    }
+
+
+    .home-register-content {
+        width: 100%;
+
+        max-width: 430px;
+
+        margin: 0 auto;
+    }
+
+
+    /* ---------- Heading ---------- */
+
+    .home-register-content h2 {
+        font-size: clamp(34px, 9vw, 46px);
+
+        line-height: 1.25;
+
+        letter-spacing: 2px;
+
+        margin: 0;
+    }
+
+
+    /* ---------- Description ---------- */
+
+    .home-register-content p {
+        width: 100%;
+
+        max-width: 380px;
+
+        margin: 25px auto 35px;
+
+        color: var(--text-primary);
+
+        font-size: clamp(16px, 4.5vw, 18px);
+
+        line-height: 1.7;
+
+        letter-spacing: 1px;
+    }
+
+
+    /* Remove forced desktop line break */
+
+    .home-register-content p br {
+        display: none;
+    }
+
+
+    /* ---------- Button ---------- */
+
+    .home-register-button {
+        width: min(100%, 240px);
+
+        box-sizing: border-box;
+
+        padding: 14px 25px;
+
+        font-size: 16px;
+    }
+
+
+    /* ---------- Mobile hover ---------- */
+
+    .home-register-button:hover {
+        transform: none;
+
+        box-shadow: none;
+    }
+
+}

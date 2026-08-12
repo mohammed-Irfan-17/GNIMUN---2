@@ -91,14 +91,82 @@
 /* RESPONSIVE */
 /* ================================= */
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
 
-    .contact-reveal-left,
-    .contact-reveal-right {
-        width: auto;
-        flex: none;
+    .contact-hero {
+        min-height: 40vh;
+        padding: 40px 6% 20px;
+        margin-top: 30px;
     }
 
+    .contact-hero h1 {
+        font-size: 3rem;
+        margin-bottom: 15px;
+    }
+
+    .contact-hero p {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+
+    .contact-section {
+        padding-top:0;
+    }
+
+    .contact-container {
+        gap: 18px;
+        min-height: auto;
+    }
+
+    .contact-info,
+    .contact-location {
+        padding: 20PX;
+        min-height: auto;
+    }
+
+    .contact-info h2 {
+        font-size: 1.7rem;
+        margin-bottom: 30px;
+    }
+
+    .contact-label {
+        font-size: 0.9rem;
+    }
+
+    .contact-item {
+        margin-bottom: 25px;
+    }
+
+    .contact-item p {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+
+    .contact-location h2 {
+        font-size: 1.5rem;
+    }
+
+    .contact-location p {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+
+    .location-icon {
+        font-size: 2.5rem;
+    }
+
+    .social-links {
+        gap: 10px;
+    }
+
+    .social-links a {
+        padding: 9px 17px;
+    }
+
+    .location-btn {
+        padding: 12px 24px;
+        font-size: 0.9rem;
+    }
 }
 
 

@@ -37,12 +37,56 @@
     line-height: 1.8;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+
     .committee-hero {
-        padding: 5rem 6%;
+        min-height: auto;
+
+        padding: 110px 20px 55px;
+
+        box-sizing: border-box;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
     }
 
-    .committee-hero p {
-        font-size: 1.5rem;
+
+    .committee-hero-content {
+        width: 100%;
+        max-width: 430px;
     }
+
+
+    /* ---------- Heading ---------- */
+
+    .committee-hero h1 {
+        font-size: clamp(34px, 9vw, 46px);
+
+        line-height: 1.25;
+
+        margin-bottom: 22px;
+
+        letter-spacing: 1px;
+    }
+
+
+    /* ---------- Description ---------- */
+
+    .committee-hero p {
+        width: 100%;
+
+        max-width: 390px;
+
+        margin: 0 auto;
+
+        font-size: 16px;
+
+        line-height: 1.7;
+
+        letter-spacing: 0.5px;
+    }
+
 }

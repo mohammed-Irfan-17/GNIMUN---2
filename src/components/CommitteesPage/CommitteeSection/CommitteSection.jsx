@@ -12,7 +12,7 @@ function CommitteeSection({
 }) {
   return (
     <section className="committee-detail-card-section">
-      <Reveal direction="right">
+      <Reveal direction="left">
         <div className={`committee-detail-card ${reverse ? "reverse" : ""}`}>
 
         <div className="committee-detail-image">

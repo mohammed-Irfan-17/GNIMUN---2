@@ -13,42 +13,42 @@ function WhyChoose() {
 
             <div className="why-grid">
 
-                <Reveal direction="left">
+                <Reveal direction="left"  className="why-card-reveal">
                     <div className="why-card">
                     <h3>🎤 Public Speaking</h3>
                     <p>Express ideas confidently through committee debates.</p>
                 </div>
                 </Reveal>
 
-                <Reveal direction="up">
+                <Reveal direction="up"  className="why-card-reveal">
                     <div className="why-card">
                     <h3>🌍 Diplomacy</h3>
                     <p>Learn negotiation and collaborative problem-solving.</p>
                 </div>
                 </Reveal>
 
-                <Reveal direction="right">
+                <Reveal direction="right"  className="why-card-reveal">
                     <div className="why-card">
                     <h3>🤝 Networking</h3>
                     <p>Connect with students from diverse institutions.</p>
                 </div>
                 </Reveal>
 
-                <Reveal direction="left">
+                <Reveal direction="left" className="why-card-reveal">
                     <div className="why-card">
                     <h3>📚 Research</h3>
                     <p>Strengthen analytical and policy research skills.</p>
                 </div>
                 </Reveal>
 
-               <Reveal direction="up">
+               <Reveal direction="up"  className="why-card-reveal">
                  <div className="why-card">
                     <h3>👑 Leadership</h3>
                     <p>Develop confidence and decision-making abilities.</p>
                 </div>
                </Reveal>
 
-               <Reveal direction='right'>
+               <Reveal direction='right'  className="why-card-reveal">
                  <div className="why-card">
                     <h3>💡 Critical Thinking</h3>
                     <p>Analyze global challenges from multiple perspectives.</p>

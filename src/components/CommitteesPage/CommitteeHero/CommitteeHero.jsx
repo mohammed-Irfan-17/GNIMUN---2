@@ -7,7 +7,7 @@ const CommitteeHero = () => {
       <div className="committee-hero-content">
     
      
-      <Reveal direction="left">
+      <Reveal direction="up">
         
         <h1>
           Choose Your Table.

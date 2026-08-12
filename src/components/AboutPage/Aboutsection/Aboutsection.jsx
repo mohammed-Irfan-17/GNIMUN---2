@@ -26,7 +26,7 @@ function Aboutsection(){
 
         <div className="about-grid">
 
-            <Reveal direction="left">
+            <Reveal direction="left" className="about-mobile-slide">
                 <div className="about-card">
 
                 <h3>Our Vision</h3>
@@ -40,7 +40,7 @@ function Aboutsection(){
             </div>
             </Reveal>
 
-          <Reveal direction="up">
+          <Reveal direction="up" className="about-mobile-slide">
               <div className="about-card">
 
                 <h3>Our Mission</h3>

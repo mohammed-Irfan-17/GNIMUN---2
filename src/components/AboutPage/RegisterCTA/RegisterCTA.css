@@ -45,3 +45,76 @@
 .register-cta button:active{
     transform:translateY(-2px);
 }
+/* =====================================================
+   MOBILE REGISTER CTA
+   ===================================================== */
+
+@media (max-width: 767px) {
+
+    .register-cta {
+        width: 100%;
+
+        box-sizing: border-box;
+
+        min-height: 450px;
+
+        padding: 70px 20px;
+
+        text-align: center;
+    }
+
+
+    /* ---------- Heading ---------- */
+
+    .register-cta h2 {
+        font-size: clamp(34px, 9vw, 46px);
+
+        line-height: 1.25;
+
+        letter-spacing: 2px;
+
+        margin-bottom: 20px;
+    }
+
+
+    /* ---------- Description ---------- */
+
+    .register-cta p {
+        width: 100%;
+
+        max-width: 380px;
+
+        margin: 0 auto 32px;
+
+        font-size: clamp(16px, 4.5vw, 18px);
+
+        line-height: 1.7;
+
+        letter-spacing: 1px;
+    }
+
+
+    /* ---------- Register Button ---------- */
+
+    .register-cta button {
+        width: min(100%, 240px);
+
+        box-sizing: border-box;
+
+        padding: 14px 25px;
+
+        font-size: 16px;
+
+        border-radius: 50px;
+    }
+
+
+    /* ---------- Mobile Hover ---------- */
+
+    .register-cta button:hover {
+        transform: none;
+
+        box-shadow: none;
+    }
+
+}

@@ -54,3 +54,122 @@
     line-height:1.8;
     font-size:20px;
 }
+/* =====================================================
+   MOBILE WHY GNIMUN
+   ===================================================== */
+
+@media (max-width: 767px) {
+
+    .why {
+        width: 100%;
+
+        box-sizing: border-box;
+
+        min-height: auto;
+
+        padding: 60px 20px 70px;
+
+        justify-content: flex-start;
+    }
+
+
+    /* ---------- Heading ---------- */
+
+    .why h2 {
+        font-size: clamp(36px, 10vw, 48px);
+
+        line-height: 1.2;
+
+        letter-spacing: 3px;
+
+        margin-bottom: 18px;
+    }
+
+
+    /* ---------- Description ---------- */
+
+    .why > .reveal > p {
+        max-width: 380px;
+
+        margin: 0 auto 40px;
+
+        font-size: clamp(16px, 4.5vw, 18px);
+
+        line-height: 1.7;
+    }
+
+
+    /* ---------- Cards Grid ---------- */
+
+    .why-grid {
+        width: 100%;
+
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+        gap: 16px;
+
+        margin: 0 auto;
+    }
+
+
+    /* ---------- Card ---------- */
+
+    .why-card {
+        width: 100%;
+
+        box-sizing: border-box;
+
+        padding: 22px 20px;
+
+        border-radius: 14px;
+
+        text-align: left;
+    }
+
+
+    /* ---------- Card Heading ---------- */
+
+    .why-card h3 {
+        font-size: 19px;
+
+        line-height: 1.4;
+
+        margin-bottom: 8px;
+    }
+
+
+    /* ---------- Card Description ---------- */
+
+    .why-card p {
+        font-size: 15px;
+
+        line-height: 1.65;
+
+        margin: 0;
+    }
+
+
+    /* ---------- Mobile Hover ---------- */
+
+    .why-card:hover {
+        transform: none;
+    }
+
+}
+@media (max-width: 767px) {
+
+  
+
+
+    /* Every Why GNIMUN card */
+    .why-card-reveal {
+        transform: translateX(-100px);
+    }
+
+    .why-card-reveal.reveal-visible {
+        transform: translateX(0);
+    }
+
+}

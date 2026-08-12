@@ -18,7 +18,7 @@ function Sponsers(){
   <img src={image} alt="Sponsor Logo" />
 </div>
       <div className="sponsor-card">
-  <img s src={image}  alt="Sponsor Logo" />
+  <img  src={image}  alt="Sponsor Logo" />
 </div>
         <div className="sponsor-card">
   <img  src={image}  alt="Sponsor Logo" />

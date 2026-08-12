@@ -53,25 +53,26 @@ function CommitteesCard() {
             </Reveal>
             <div className="committee-grid">
 
-                {committees.map((committee,index)=>(
-   <Reveal direction="up">
-     <div className="committee-card" key={index}>
+                {committees.map((committee, index) => (
+    <Reveal direction="up" key={committee.short}  className="committee-card-reveal">
 
-        <div className="committee-logo">
-            <img
-                src={committee.image}
-                alt={committee.short}
-            />
+        <div className="committee-card">
+
+            <div className="committee-logo">
+                <img
+                    src={committee.image}
+                    alt={committee.short}
+                />
+            </div>
+
+            <div className="committee-content">
+                <h3>{committee.short}</h3>
+                <p>{committee.name}</p>
+            </div>
+
         </div>
 
-        <div className="committee-content">
-            <h3>{committee.short}</h3>
-            <p>{committee.name}</p>
-             
-        </div>
-
-    </div>
-   </Reveal>
+    </Reveal>
 ))}
 
             </div>

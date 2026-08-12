@@ -112,46 +112,174 @@
     color: var(--bg-primary);
 }
 
-@media (max-width: 768px) {
+/* =====================================================
+   MOBILE HERO
+   ===================================================== */
 
-    .hero .hero-logo img {
-        width: 200px;
+@media (max-width: 767px) {
+
+    .hero {
+        min-height: calc(100vh - 72px);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+
+        padding: 110px 20px 60px;
+
+        box-sizing: border-box;
     }
 
-    .hero h1 {
-        font-size: 48px;
-    }
 
-    .hero h2 {
-        font-size: 24px;
-    }
+    /* ---------- Hero Container ---------- */
 
-    .hero p {
-        font-size: 17px;
-    }
-}
+    .hero .hero-content {
+        width: 100%;
+        max-width: 430px;
 
-@media (max-width: 480px) {
+        margin: 0 auto;
 
-    .hero .hero-logo img {
-        width: 170px;
-    }
-
-    .hero h1 {
-        font-size: 38px;
-    }
-
-    .hero h2 {
-        font-size: 20px;
-    }
-
-    .hero .hero-buttons {
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .hero .btn {
-        width: 220px;
-        text-align: center;
+
+    /* ---------- Logo ---------- */
+
+    .hero .hero-logo {
+        width: clamp(180px, 52vw, 220px);
+        height: clamp(180px, 52vw, 220px);
+
+        margin: 0 auto 28px;
+
+        border-radius: 50%;
+
+        overflow: hidden;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border: 2px solid var(--border-color);
+
+        background: var(--bg-card);
+
+        flex-shrink: 0;
     }
+
+
+    .hero .hero-logo img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+    }
+
+
+    /* ---------- Main Heading ---------- */
+
+    .hero h1 {
+        font-size: clamp(38px, 11vw, 52px);
+
+        line-height: 1.1;
+
+        letter-spacing: clamp(5px, 2vw, 10px);
+
+        margin: 0 0 8px;
+
+        max-width: 100%;
+    }
+
+
+    /* ---------- Season ---------- */
+
+    .hero h2 {
+        font-size: clamp(22px, 6vw, 28px);
+
+        line-height: 1.2;
+
+        margin: 0 0 18px;
+    }
+
+
+    /* ---------- Tagline ---------- */
+
+    .hero p {
+        font-size: clamp(15px, 4.2vw, 18px);
+
+        line-height: 1.6;
+
+        letter-spacing: 1.5px;
+
+        max-width: 340px;
+
+        margin: 0 auto 32px;
+    }
+
+
+    /* ---------- Buttons ---------- */
+
+    .hero .hero-buttons {
+        width: 100%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 14px;
+    }
+
+
+    .hero .btn {
+        width: min(100%, 260px);
+
+        box-sizing: border-box;
+
+        padding: 14px 24px;
+
+        text-align: center;
+
+        border-radius: 40px;
+
+        font-size: 16px;
+    }
+
+
+    /* ---------- Disable excessive mobile hover movement ---------- */
+
+    .hero .btn-primary:hover {
+        transform: none;
+    }
+
+}
+.nav-button {
+    display: inline-block;
+    padding: 16px 42px;
+
+    background: #060707;
+    color: #F4F4F4;
+
+    border: 2px solid #C7A34A;
+    border-radius: 50px;
+
+    font-size: 1rem;
+    font-weight: 600;
+
+    text-decoration: none;
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+    background: #C7A34A;
+    color: #060707;
+
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(199, 163, 74, 0.3);
 }

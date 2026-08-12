@@ -250,27 +250,194 @@ letter-spacing:1px;
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
 
     .committee-detail-card-section {
-        padding: 30px 5%;
+        width: 100%;
+
+        min-height: auto;
+
+        padding: 25px 18px;
+
+        box-sizing: border-box;
     }
 
-    .committee-detail-card {
-        padding: 20px;
+
+    /* ---------- Main Card ---------- */
+
+    .committee-detail-card,
+    .committee-detail-card.reverse {
+
+        width: 100%;
+
+        min-height: auto;
+
+        box-sizing: border-box;
+
+        flex-direction: column;
+
+        gap: 0;
+
+        padding: 14px;
+
+        border-radius: 20px;
+
+        overflow: hidden;
     }
 
-    .committee-detail-title h2 {
-        font-size: 2.2rem;
+
+    /* ---------- Image ---------- */
+
+    .committee-detail-image {
+        width: 100%;
+
+        height: 300px;
+
+        flex: none;
+
+        border-radius: 15px;
+
+        overflow: hidden;
     }
 
-    .committee-detail-title h3 {
-        font-size: 1.1rem;
+
+    .committee-detail-image img {
+        width: 100%;
+
+        height: 100%;
+
+        object-fit: cover;
     }
+
+
+    /* ---------- Content ---------- */
+
+    .committee-detail-content {
+
+        width: 100%;
+
+        box-sizing: border-box;
+
+        padding: 22px 8px 10px;
+
+        text-align: left;
+    }
+
+
+    /* ---------- Title ---------- */
+
+    .committee-detail-title {
+
+        display: flex;
+
+        align-items: center;
+
+        gap: 12px;
+
+        margin: 0 0 18px;
+
+    }
+
+
+    /* ---------- Committee Logo ---------- */
 
     .committee-detail-logo {
-        width: 50px;
-        height: 50px;
+
+        width: 65px;
+
+        height: 65px;
+
+        flex-shrink: 0;
+    }
+
+
+    /* ---------- Short Name ---------- */
+
+    .committee-detail-title h2 {
+
+        font-size: 28px;
+
+        line-height: 1.2;
+
+        letter-spacing: 3px;
+
+        margin: 0 0 4px;
+    }
+
+
+    /* ---------- Full Name ---------- */
+
+    .committee-detail-title h3 {
+
+        font-size: 14px;
+
+        line-height: 1.4;
+
+        letter-spacing: 0.5px;
+
+        margin: 0;
+    }
+
+
+    /* ---------- Dividers ---------- */
+
+    .committee-detail-divider {
+
+        width: 100%;
+
+        margin: 4px 0 18px;
+    }
+
+
+    /* ---------- Overview ---------- */
+
+    .committee-detail-overview {
+
+        width: 100%;
+
+        font-size: 15px;
+
+        line-height: 1.7;
+
+        letter-spacing: 0.3px;
+
+        margin: 0 0 18px;
+    }
+
+
+    /* ---------- Agenda Heading ---------- */
+
+    .committee-detail-content h4 {
+
+        font-size: 20px;
+
+        letter-spacing: 3px;
+
+        margin: 5px 0 8px;
+    }
+
+
+    /* ---------- Agenda ---------- */
+
+    .committee-detail-agenda {
+
+        font-size: 15px;
+
+        line-height: 1.7;
+
+        letter-spacing: 0.3px;
+
+        margin: 0;
+    }
+
+
+    /* ---------- Disable card hover movement on touch ---------- */
+
+    .committee-detail-card:hover {
+
+        transform: none;
+
+        box-shadow: none;
     }
 
 }

@@ -1,68 +1,312 @@
+/* =================================
+   HIGHLIGHTS SECTION
+================================= */
+
 .highlights {
-    padding:80px 10%;
-    background:transparent;
-     min-height: clamp(600px, 80vh, 850px);
-}
-.highlights h2{
-    text-align:center;
-   color:var(--accent);
-    margin-bottom:40px;
-    font-size:60px;
-    letter-spacing:1px;
-}
-.highlights .gallery{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:25px;
-    margin-bottom:50px;
-}
-.highlights .gallery-box {
-    height:220px;
-    background:var(--bg-card);
-    border:1px solid var(--border-color);
-    border-radius:12px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    color:var(--text-secondary);
-    transition:border-color 0.2s ease;
-}
-.highlights .gallery-box:hover{
-    border-color:var(--accent);
-}
-.gallery-box {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+    /* width: 100%; */
+
+    padding: 80px 10%;
+
+    background: transparent;
+
+    min-height: clamp(600px, 80vh, 850px);
+
+    box-sizing: border-box;
+    /* margin:0; */
+    /* margin-top:200px; */
 }
 
-.gallery-box img {
+
+/* =================================
+   TITLE
+================================= */
+
+.highlights h2 {
+    text-align: center;
+
+    color: var(--accent);
+
+    margin-bottom: 40px;
+
+    font-size: 60px;
+
+    letter-spacing: 1px;
+}
+
+
+/* =================================
+   GALLERY
+================================= */
+
+.highlights .gallery {
+    width: 90%;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+    /* margin-top:100px; */
+
+    /* margin-bottom: 0 auto 40px; */
+}
+
+
+/* =================================
+   GALLERY BOX
+================================= */
+
+.highlights .gallery-box {
     width: 100%;
+
+    height: 220px;
+
+    background: var(--bg-card);
+
+    border: 1px solid var(--border-color);
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    transition:
+        border-color 0.2s ease,
+        transform 0.3s ease;
+}
+
+
+/* =================================
+   GALLERY HOVER
+================================= */
+
+.highlights .gallery-box:hover {
+    border-color: var(--accent);
+
+    transform: translateY(-5px);
+}
+
+
+/* =================================
+   IMAGE
+================================= */
+
+.highlights .gallery-box img {
+    width: 100%;
+
     height: 100%;
-    object-fit: contain;
+
+    object-fit: cover;
+
     display: block;
 }
-.highlights .stats{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:25px;
+
+
+/* =================================
+   STATS
+================================= */
+.highlights .stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    width: 100%;
+    margin: 0 auto;
+    margin-left:0;
+    margin-top:100px;
 }
-.highlights .stat-card{
-    background:var(--bg-card);
-    border:1px solid var(--border-color);
-    border-radius:12px;
-    padding:30px;
-    text-align:center;
-    transition:border-color 0.2s ease;
+
+
+/* =================================
+   STAT CARD
+================================= */
+
+.highlights .stat-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    transition: border-color 0.2s ease;
 }
-.highlights .stat-card:hover{
-    border-color:var(--accent);
+
+
+/* =================================
+   STAT HOVER
+================================= */
+
+.highlights .stat-card:hover {
+    border-color: var(--accent);
+
+    transform: translateY(-5px);
 }
-.highlights .stat-card h3{
-    color:#C8A45A;
-    font-size:36px;
-    margin-bottom:10px;
+
+
+/* =================================
+   STAT NUMBER
+================================= */
+
+.highlights .stat-card h3 {
+    color: #C8A45A;
+    font-size: 36px;
+    margin-bottom: 10px;
 }
-.highlights .stat-card p{
-    color:var(--text-secondary);
+
+
+/* =================================
+   STAT TEXT
+================================= */
+
+.highlights .stat-card p {
+    color: var(--text-secondary);
+    font-size: 1rem;
+}
+
+
+
+
+
+
+/* =================================
+   MOBILE
+================================= */
+
+@media (max-width: 600px) {
+
+    .highlights {
+   width:100%;
+        padding: 45px 6%;
+
+        min-height: auto;
+        margin-top:30px;
+        margin-left:0;
+
+    }
+
+
+    /* =========================
+       TITLE
+    ========================= */
+
+    .highlights h2 {
+
+        font-size: 2.7rem;
+
+        line-height: 1.25;
+
+        margin-bottom: 30px;
+
+        letter-spacing: 1px;
+
+    }
+
+
+    /* =========================
+       GALLERY
+       3 IMAGES PER ROW
+    ========================= */
+
+    .highlights .gallery {
+
+        width: 100%;
+
+        display: grid;
+
+        grid-template-columns: repeat(3, 1fr);
+
+        gap: 12px;
+
+        margin-bottom: 35px;
+
+    }
+
+
+    /* =========================
+       GALLERY BOX
+    ========================= */
+
+    .highlights .gallery-box {
+
+        width: 100%;
+
+        height: 105px;
+
+        border-radius: 12px;
+
+    }
+
+
+    /* =========================
+       IMAGE
+    ========================= */
+
+    .highlights .gallery-box img {
+
+        width: 100%;
+
+        height: 100%;
+
+        object-fit: cover;
+
+    }
+
+
+    /* =========================
+       STATS
+       2 × 2
+    ========================= */
+
+    .highlights .stats {
+
+        width:95%;
+
+        grid-template-columns: repeat(4, 1fr);
+
+        gap: 8px;
+
+    }
+
+
+    /* =========================
+       STAT CARD
+    ========================= */
+
+    .highlights .stat-card {
+
+        padding: 15px 5px;
+
+        border-radius: 14px;
+
+    }
+
+
+    /* =========================
+       NUMBER
+    ========================= */
+
+    .highlights .stat-card h3 {
+
+        font-size: 20px;
+
+        margin-bottom: 6px;
+
+    }
+
+
+    /* =========================
+       LABEL
+    ========================= */
+
+    .highlights .stat-card p {
+
+        font-size: 11px;
+
+        margin: 0;
+
+    }
+
 }

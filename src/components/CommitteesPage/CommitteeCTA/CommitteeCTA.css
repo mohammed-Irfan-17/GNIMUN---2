@@ -62,3 +62,81 @@ button:hover{
 button:active{
     transform:translateY(-2px);
 }
+@media (max-width: 767px) {
+
+    .committee-cta {
+        width: 100%;
+
+        min-height: auto;
+
+        box-sizing: border-box;
+
+        padding: 70px 20px;
+
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+    }
+
+
+    .committee-cta-content {
+        width: 100%;
+        max-width: 400px;
+    }
+
+
+    /* ---------- Heading ---------- */
+
+    .committee-cta h2 {
+        font-size: clamp(34px, 9vw, 46px);
+
+        line-height: 1.25;
+
+        letter-spacing: 2px;
+
+        margin-bottom: 20px;
+    }
+
+
+    /* ---------- Description ---------- */
+
+    .committee-cta p {
+        width: 100%;
+
+        max-width: 380px;
+
+        margin: 0 auto 32px;
+
+        font-size: 16px;
+
+        line-height: 1.7;
+
+        letter-spacing: 0.5px;
+    }
+
+
+    /* ---------- Button ---------- */
+
+    .committee-cta button {
+        width: min(100%, 230px);
+
+        box-sizing: border-box;
+
+        padding: 14px 25px;
+
+        font-size: 16px;
+    }
+
+
+    /* ---------- Mobile hover ---------- */
+
+    .committee-cta button:hover {
+        transform: none;
+
+        box-shadow: none;
+    }
+
+}

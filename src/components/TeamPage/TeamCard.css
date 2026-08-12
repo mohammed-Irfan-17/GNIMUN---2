@@ -119,3 +119,25 @@
 
     line-height: 1.6;
 }
+@media (max-width: 768px) {
+
+    .team-card {
+        width: 100%
+    }
+
+    .team-member-img {
+        height: 150px;
+    }
+
+    .team-member-content {
+        padding: 20px 15px;
+    }
+
+    .team-member-content h3 {
+        font-size: 1.25rem;
+    }
+
+    .team-member-content p {
+        font-size: 0.95rem;
+    }
+}

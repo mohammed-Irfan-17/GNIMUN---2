@@ -172,3 +172,161 @@
         0 0 20px rgba(199,163,74,.6),
         0 0 35px rgba(199,163,74,.4);
 }
+/* =====================================================
+   MOBILE COMMITTEES
+   ===================================================== */
+
+@media (max-width: 767px) {
+
+    .committees {
+        min-height: auto;
+
+        padding: 80px 20px 70px;
+
+        box-sizing: border-box;
+
+        width: 100%;
+    }
+
+
+    /* ---------- Section Heading ---------- */
+
+    .section-title {
+        font-size: clamp(32px, 9vw, 42px);
+
+        line-height: 1.15;
+
+        letter-spacing: 4px;
+
+        margin: 0;
+    }
+
+
+    .committees-tagline {
+        width: 100%;
+
+        max-width: 350px;
+
+        margin: 18px auto 40px;
+
+        font-size: clamp(16px, 4.3vw, 18px);
+
+        line-height: 1.7;
+
+        letter-spacing: 0.8px;
+    }
+
+
+    /* ---------- Committee Grid ---------- */
+
+    .committee-grid {
+        width: 100%;
+
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+        gap: 22px;
+
+        margin: 0 auto;
+    }
+
+
+    /* ---------- Committee Card ---------- */
+
+    .committee-card {
+        width: 100%;
+
+        min-height: auto;
+
+        box-sizing: border-box;
+
+        border-radius: 16px;
+    }
+
+
+    /* ---------- Committee Logo ---------- */
+
+    .committee-logo {
+        width: 100%;
+
+        height: 190px;
+    }
+
+
+    .committee-logo img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+    }
+
+
+    /* ---------- Committee Content ---------- */
+
+    .committee-content {
+        height: auto;
+
+        min-height: 150px;
+
+        padding: 22px 18px;
+    }
+
+
+    .committee-content h3 {
+        font-size: clamp(20px, 5.5vw, 24px);
+
+        margin-bottom: 10px;
+
+        letter-spacing: 1px;
+    }
+
+
+    .committee-content p {
+        font-size: clamp(15px, 4vw, 17px);
+
+        line-height: 1.6;
+
+        letter-spacing: 0.4px;
+
+        max-width: 320px;
+
+        margin: 0;
+    }
+
+
+    /* ---------- View All Button ---------- */
+
+    .view-btn {
+        margin-top: 35px;
+
+        padding: 13px 28px;
+
+        font-size: 1rem;
+
+        text-align: center;
+    }
+
+
+    /* ---------- Disable Desktop Hover Movement ---------- */
+
+    .committee-card:hover {
+        transform: none;
+    }
+
+    .view-btn:hover {
+        transform: none;
+    }
+
+}
+@media (max-width: 767px) {
+
+    .committee-card-reveal {
+        transform: translateX(-60px);
+    }
+
+    .committee-card-reveal.reveal-visible {
+        transform: translateX(0);
+    }
+
+}

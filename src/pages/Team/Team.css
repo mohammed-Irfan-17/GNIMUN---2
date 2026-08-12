@@ -49,10 +49,9 @@ margin-bottom:0;
 
 .team-section {
     width: 100%;
-
     padding: 60px 7% 100px;
+    box-sizing: border-box;
 }
-
 
 /* ================================= */
 /* TEAM GRID */
@@ -68,4 +67,31 @@ margin-bottom:0;
     justify-content: center;
 
     gap: 30px;
+}
+@media (max-width: 768px) {
+
+    .team-hero {
+        min-height: auto;
+        margin-top: 100px;
+        padding: 40px 20px 30px;
+    }
+
+    .team-hero h1 {
+        font-size: 3rem;
+    }
+
+    .team-hero p {
+        font-size: 1.1rem;
+        line-height: 1.7;
+    }
+
+    .team-section {
+        padding: 30px 20px 70px;
+    }
+
+    .team-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
 }

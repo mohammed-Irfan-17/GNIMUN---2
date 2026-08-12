@@ -6,7 +6,7 @@ function CommitteeCTA() {
     <section className="committee-cta">
       <div className="committee-cta-content">
 
-        <Reveal direction="right">
+        <Reveal direction="uo">
           <h2>Found Your Committee?</h2>
            <p>
           Every committee offers a unique experience, but every journey begins
@@ -16,7 +16,7 @@ function CommitteeCTA() {
         </Reveal>
 
         
-<Reveal direction="up">
+<Reveal direction="left">
   <button>Rgister now</button>
 </Reveal>
        

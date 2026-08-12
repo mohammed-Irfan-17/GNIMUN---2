@@ -53,3 +53,115 @@
     font-size:1.3rem;
     line-height:1.8;
 }
+/* =====================================================
+   MOBILE SHAPING LEADERS
+   ===================================================== */
+
+@media (max-width: 767px) {
+
+    .leaders {
+        width: 100%;
+
+        box-sizing: border-box;
+
+        min-height: auto;
+
+        padding: 70px 20px;
+
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 25px;
+    }
+
+
+    /* ---------- Left Content ---------- */
+
+    .leaders-left {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    .leaders-left h2 {
+        font-size: clamp(32px, 9vw, 44px);
+
+        line-height: 1.3;
+
+        letter-spacing: 2px;
+
+        margin-bottom: 25px;
+    }
+
+
+    .leaders-left p {
+        font-size: clamp(16px, 4.5vw, 18px);
+
+        line-height: 1.8;
+
+        margin-top: 20px;
+    }
+
+
+    /* ---------- Right Cards ---------- */
+
+    .leaders-right {
+        width: 100%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 18px;
+
+        justify-content: flex-start;
+    }
+
+
+    /* ---------- Info Card ---------- */
+
+    .info-card {
+        width: 100%;
+
+        box-sizing: border-box;
+
+        padding: 24px 20px;
+
+        border-radius: 14px;
+
+        text-align: left;
+    }
+
+
+    .info-card h3 {
+        font-size: 20px;
+
+        margin-bottom: 10px;
+    }
+
+
+    .info-card p {
+        font-size: 15px;
+
+        line-height: 1.7;
+
+        margin: 0;
+    }
+
+
+    /* ---------- Disable Desktop Hover Movement ---------- */
+
+    .info-card:hover {
+        transform: none;
+    }
+     .leaders-right .reveal-right {
+        transform: translateX(-100px);
+    }
+
+    .leaders-right .reveal-right.reveal-visible {
+        transform: translateX(0);
+    }
+
+}

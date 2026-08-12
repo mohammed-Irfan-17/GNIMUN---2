@@ -1,6 +1,7 @@
 import "./Hero.css";
 import logo from  "../../../assets/logos/mun-logo.jpeg";
 import Reveal from "../../Common/Animations/Reveal";
+import { Link } from "react-router-dom";
 function Hero(){
     return(
   <>
@@ -23,9 +24,10 @@ function Hero(){
             <a href="#" className="btn btn-primary">
                 Register Now
             </a>
-            <a href="#" className="btn btn-outline">
-                Learn More
-            </a>
+             <Link to="/committees" className="nav-button">
+    View Committees
+</Link>
+
         </div>
        </Reveal>
        

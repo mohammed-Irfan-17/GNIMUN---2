@@ -24,7 +24,7 @@ function Home() {
             <Sponsers/>
     <section className="home-register-cta">
     <div className="home-register-content">
-  <Reveal diorection="up">
+  <Reveal direction="up">
     <h2>Ready To Represent Your Nation?</h2>
 
         <p>

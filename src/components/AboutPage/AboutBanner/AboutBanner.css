@@ -33,3 +33,67 @@
     font-size:2rem;
     line-height:1.8;
 }
+/* =====================================================
+   MOBILE ABOUT BANNER
+   ===================================================== */
+
+@media (max-width: 767px) {
+
+    .about-banner {
+        width: 100%;
+
+        box-sizing: border-box;
+
+        min-height: 400px;
+
+        padding: 90px 22px 60px;
+
+        margin-top: 72px;
+
+        text-align: center;
+    }
+
+
+    /* ---------- Main Heading ---------- */
+
+    .about-banner h1 {
+        width: 100%;
+
+        font-size: clamp(38px, 11vw, 52px);
+
+        line-height: 1.15;
+
+        letter-spacing: 2px;
+
+        margin-bottom: 18px;
+    }
+
+
+    /* ---------- Subtitle ---------- */
+
+    .about-banner h3 {
+        font-size: clamp(21px, 6vw, 27px);
+
+        line-height: 1.35;
+
+        margin-bottom: 20px;
+    }
+
+
+    /* ---------- Description ---------- */
+
+    .about-banner p {
+        width: 100%;
+
+        max-width: 380px;
+
+        margin: 0 auto;
+
+        font-size: clamp(16px, 4.5vw, 18px);
+
+        line-height: 1.7;
+
+        color: #A6B0AE;
+    }
+
+}

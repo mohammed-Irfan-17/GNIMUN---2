@@ -104,3 +104,132 @@ letter-spacing:1px;
 color:#C4C8C7;
 
 }
+/* =====================================================
+   MOBILE ABOUT SECTION
+   ===================================================== */
+
+@media (max-width: 767px) {
+
+    .about {
+        padding: 80px 20px 70px;
+
+        min-height: auto;
+
+        box-sizing: border-box;
+    }
+
+
+    /* ---------- Section Heading ---------- */
+
+    .about .section-heading {
+        width: 100%;
+        max-width: 100%;
+
+        margin: 0 auto 42px;
+
+        text-align: center;
+    }
+
+
+    .about .section-heading span {
+        font-size: clamp(28px, 8vw, 38px);
+
+        letter-spacing: 4px;
+
+        margin-bottom: 12px;
+    }
+
+
+    .about .section-heading h2 {
+        font-size: clamp(24px, 6.5vw, 30px);
+
+        line-height: 1.35;
+
+        letter-spacing: 3px;
+
+        margin-bottom: 22px;
+    }
+
+
+    .about .section-heading p {
+        font-size: clamp(16px, 4.3vw, 18px);
+
+        line-height: 1.7;
+
+        letter-spacing: 0.8px;
+
+        max-width: 350px;
+
+        margin: 0 auto;
+    }
+
+
+    /* ---------- Cards ---------- */
+
+    .about .about-grid {
+        width: 100%;
+
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+
+        margin: 0 auto;
+    }
+
+
+    .about .about-card {
+        width: 100%;
+
+        box-sizing: border-box;
+
+        padding: 25px 22px;
+
+        border-radius: 14px;
+    }
+
+
+    /* ---------- Card Heading ---------- */
+
+    .about .about-card h3 {
+        font-size: clamp(21px, 5.5vw, 25px);
+
+        margin-bottom: 18px;
+
+        letter-spacing: 1px;
+    }
+
+
+    /* ---------- Card Description ---------- */
+
+    .about .about-card p {
+        font-size: clamp(16px, 4.2vw, 18px);
+
+        line-height: 1.7;
+
+        letter-spacing: 0.5px;
+
+        margin: 0;
+    }
+
+
+    /* ---------- Mobile Hover ---------- */
+
+    .about .about-card:hover {
+        transform: none;
+    }
+
+}
+@media (max-width: 767px) {
+
+    .about-mobile-slide.reveal-up,
+    .about-mobile-slide.reveal-left {
+        transform: translateX(-60px);
+    }
+
+    .about-mobile-slide.reveal-visible {
+        transform: translateX(0);
+    }
+
+}

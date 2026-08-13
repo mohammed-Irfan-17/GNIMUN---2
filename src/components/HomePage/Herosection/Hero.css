@@ -80,9 +80,9 @@
 }
 
 .hero .btn {
-    padding: 14px 34px;
+    padding: 18px 34px;
 
-    border-radius: 40px;
+    border-radius: 10px;
 
     font-weight: 600;
 
@@ -90,14 +90,31 @@
 }
 
 .hero .btn-primary {
-    background: var(--accent);
-    color: var(--bg-primary);
+     display: inline-block;
+    padding: 16px 42px;
+
+    background: #060707;
+    color: #F4F4F4;
+
+    border: 2px solid #C7A34A;
+    border-radius: 10px;
+
+    font-size: 1rem;
+    font-weight: 600;
+
+    text-decoration: none;
+    cursor: pointer;
+
+    transition: all 0.3s ease;
 }
 
 .hero .btn-primary:hover {
-    background: var(--accent-hover);
+ background: #C7A34A;
+    color: #060707;
 
-    transform: translateY(-10px);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(199, 163, 74, 0.3);
+
 }
 
 .hero .btn-outline {
@@ -176,6 +193,7 @@
         height: 100%;
 
         object-fit: cover;
+        
     }
 
 
@@ -236,7 +254,7 @@
 
 
     .hero .btn {
-        width: min(100%, 260px);
+        width: min(100%, 220px);
 
         box-sizing: border-box;
 
@@ -244,16 +262,17 @@
 
         text-align: center;
 
-        border-radius: 40px;
+        border-radius: 10px;
 
         font-size: 16px;
+        margin-bottom:5px;
     }
 
 
     /* ---------- Disable excessive mobile hover movement ---------- */
 
     .hero .btn-primary:hover {
-        transform: none;
+         transform: translateY(-5px);
     }
 
 }
@@ -265,7 +284,7 @@
     color: #F4F4F4;
 
     border: 2px solid #C7A34A;
-    border-radius: 50px;
+    border-radius: 10px;
 
     font-size: 1rem;
     font-weight: 600;

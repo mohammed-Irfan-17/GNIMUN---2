@@ -1,7 +1,7 @@
 import Navbar from "../../components/Common/Navbar/Navbar";
 import Footer from "../../components/Common/Footer/Footer";
 import Hero from "../../components/HomePage/Herosection/Hero";
-import About from "../../components/AboutPage/Aboutsection/Aboutsection";
+
 import Committees from "../../components/HomePage/CommitteesCard/CommitteesCard";
 import Event from "../../components/HomePage/EventInfo/EventInfo";
 import Secretarait from "../../components/HomePage/SecretaraitCard/SecretaraitCard";
@@ -16,7 +16,7 @@ function Home() {
         <>
             <Navbar />
             <Hero/>
-            < About/>
+            
             <Committees/>
             <Event/>
             <Secretarait/>

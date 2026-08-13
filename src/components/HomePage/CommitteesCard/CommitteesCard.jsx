@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 import "./CommitteesCard.css";
 import Reveal from "../../Common/Animations/Reveal";
 
-import unhrc from "../../../assets/logos/unhrc-logo.png";
-import disec from "../../../assets/logos/DISECLogo.png";
-import aippm from "../../../assets/logos/AIPPMLogo.jpg";
-import tfi from "../../../assets/logos/TFILogo.png";
-import ip from "../../../assets/logos/IPLogo.jpg";
+import unhrc from "../../../assets/logos/UNHRC-4.png";
+import disec from "../../../assets/logos/1.png";
+import aippm from "../../../assets/logos/AIPPMLogo-3.png";
+import tfi from "../../../assets/logos/TFI-1.png";
+import ip from "../../../assets/logos/1-2.png";
 
 const committees = [        
     {

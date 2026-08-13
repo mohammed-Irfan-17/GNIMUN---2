@@ -9,14 +9,12 @@ function ShapingLeaders() {
                 <div className="leaders-left">
                 <h2>Shaping The Leaders Of Tomorrow</h2>
                 <p>
-                    GNIMUN II is a premier Model United Nations conference
-                    organized by Guru Nanak Institutions. It provides students
-                    with a platform to debate global issues, strengthen leadership,
-                    and develop diplomacy through engaging committee sessions.
+                   GNIMUN II is a premier Model United Nations conference organized by Guru Nanak Institutions, bringing together young minds to engage with global issues through meaningful debate and diplomacy. It provides delegates with an opportunity to develop leadership, strengthen communication, think critically, and experience the art of negotiation through engaging committee sessions.
+                   <br></br>
+                   <br></br>
+                   More than a conference, GNIMUN II is a platform to learn, collaborate, and grow into confident leaders prepared to shape the world of tomorrow.
                 </p>
-                <p>
-                    this is irfan , this is only the part of content
-                </p>
+               
             </div>
             </Reveal>
 

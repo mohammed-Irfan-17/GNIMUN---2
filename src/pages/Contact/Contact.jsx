@@ -42,7 +42,7 @@ function Contact() {
 
                         <Reveal
                             direction="left"
-                            className="contact-reveal-left"
+                            className="contact-left"
                         >
                             <div className="contact-info">
 
@@ -119,7 +119,7 @@ function Contact() {
 
                         <Reveal
                             direction="right"
-                            className="contact-reveal-right"
+                            className="contact-right"
                         >
 
                             <div className="contact-location">

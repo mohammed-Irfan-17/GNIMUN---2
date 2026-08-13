@@ -16,17 +16,17 @@ function EventInfo(){
         </div>
         </Reveal>
 
-      <Reveal direction="up">
+      <Reveal direction="left">
           <div className="event-card">
             <h3>🕒 Time</h3>
             <p>9:00 AM - 5:00 PM</p>
         </div>
       </Reveal>
 
-      <Reveal direction="right">
+      <Reveal direction="left" >
           <div className="event-card">
             <h3>📍 Venue</h3>
-            <p>Guru Nanak Institutions, Hyderabad</p>
+            <p>Guru Nanak Institutions , Hyd</p>
         </div>
       </Reveal>
     </div>

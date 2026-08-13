@@ -237,29 +237,32 @@
     .committee-card {
         width: 100%;
 
-        min-height: auto;
+        min-height: 200px;
 
         box-sizing: border-box;
 
-        border-radius: 16px;
+        border-radius: 50px;
     }
 
 
     /* ---------- Committee Logo ---------- */
 
-    .committee-logo {
-        width: 100%;
-
-        height: 190px;
-    }
+   .committee-logo {
+    width: 100%;
+    height:150px;
+    overflow: hidden;
+}
 
 
     .committee-logo img {
-        width: 100%;
-        height: 100%;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+    /* object-position: 50% 40%; */
+    margin-top:0px;
 
-        object-fit: cover;
-    }
+}
 
 
     /* ---------- Committee Content ---------- */
@@ -267,9 +270,9 @@
     .committee-content {
         height: auto;
 
-        min-height: 150px;
+        min-height: 100px;
 
-        padding: 22px 18px;
+        padding: 22px 8px;
     }
 
 

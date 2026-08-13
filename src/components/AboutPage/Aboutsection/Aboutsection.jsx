@@ -54,7 +54,7 @@ function Aboutsection(){
             </div>
           </Reveal>
 
-          <Reveal direction="right">
+          <Reveal direction="right" className="about-mobile-slide">
               <div className="about-card">
 
                 <h3>Our Purpose</h3>

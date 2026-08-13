@@ -224,7 +224,7 @@ color:#C4C8C7;
 @media (max-width: 767px) {
 
     .about-mobile-slide.reveal-up,
-    .about-mobile-slide.reveal-left {
+    .about-mobile-slide.reveal-left,.about-mobile-slide.reveal-right {
         transform: translateX(-60px);
     }
 

@@ -12,7 +12,7 @@ import AIPPMLogo from "../../assets/logos/AIPPMLogo.jpg";
 import TFILogo from "../../assets/logos/TFILogo.png";
 import IPLogo from "../../assets/logos/IPLogo.jpg";
 //images
-import UNHRCImage from "../../assets/images/unhrc.png";
+import UNHRCImage from "../../assets/images/UNHRC.jpeg";
 import DISECImage from "../../assets/images/DISECImage.png";
 import AIPPMImage from "../../assets/images/AIPPMImage.png";
 import TFIImage from "../../assets/images/TFIImage.png";

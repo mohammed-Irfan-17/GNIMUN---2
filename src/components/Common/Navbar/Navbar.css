@@ -115,7 +115,7 @@
    REGISTER BUTTON
 ========================= */
 
-.navbar-menu button {
+.register-btn{
     padding: 16px 42px;
 
     background: rgba(200, 164, 90, 0.14);
@@ -134,14 +134,11 @@
     transition: all 0.3s ease;
 }
 
-.navbar-menu button:hover {
-    background: #C7A34A;
-
-    color: rgba(17, 14, 9, 0.974);
-
-    transform: translateY(-5px);
-
-    box-shadow: 0 10px 25px rgba(199, 163, 74, 0.3);
+.register-btn:hover {
+   background:#C7A34A;
+    color:#060707;
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(199,163,74,.3);
 }
 
 .navbar-menu button:active {

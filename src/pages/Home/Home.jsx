@@ -11,6 +11,7 @@ import Reveal from "../../components/Common/Animations/Reveal";
 import "./Home.css";
 
 function Home() {
+    const RegisterLink="https://docs.google.com/forms/d/e/1FAIpQLSezSvRv0gPKz5TVbJfwu_RQgsT_8BX3v1q6ZtKjzfbXRKjdig/viewform?usp=header";
 
     return (
         <>
@@ -36,9 +37,9 @@ function Home() {
         
 
         <Reveal direction="left">
-            <button className="home-register-button">
+            <a href={RegisterLink} className="home-register-button">
             Register Now
-        </button>
+        </a>
         </Reveal>
 
     </div>

@@ -8,6 +8,7 @@ import { useState } from "react";
 function Navbar() {
 
     const [menuOpen, setMenuOpen] = useState(false);
+    const RegisterLink="https://docs.google.com/forms/d/e/1FAIpQLSezSvRv0gPKz5TVbJfwu_RQgsT_8BX3v1q6ZtKjzfbXRKjdig/viewform?usp=headerhttps://docs.google.com/forms/d/e/1FAIpQLSezSvRv0gPKz5TVbJfwu_RQgsT_8BX3v1q6ZtKjzfbXRKjdig/viewform?usp=header";
 
     const closeMenu = () => {
         setMenuOpen(false);
@@ -41,7 +42,7 @@ function Navbar() {
 
                 </nav>
 
-                <button>Register</button>
+                <a href={RegisterLink} className="register-btn"> Register</a>
 
             </div>
 

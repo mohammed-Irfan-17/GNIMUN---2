@@ -12,7 +12,7 @@ function EventInfo(){
         <Reveal direction="left">
             <div className="event-card">
             <h3>📅 Date</h3>
-            <p>12 - 13 September 2026</p>
+            <p>11 - 12 September 2026</p>
         </div>
         </Reveal>
 

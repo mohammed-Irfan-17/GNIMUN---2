@@ -34,6 +34,27 @@
     font-size: 1.5rem;
     line-height: 1.8;
 }
+.home-register-content a{
+       padding:16px 42px;
+    background:#060707;
+    color:#F4F4F4;
+    border:2px solid #C7A34A;
+    border-radius:50px;
+    font-size:1rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .3s ease;
+}
+.home-register-content a:hover{
+      background:#C7A34A;
+    color:#060707;
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(199,163,74,.3);
+      /* transform:translateY(-2px); */
+}
+.home-register-content a:hover{
+      transform:translateY(-2px);
+}
 /* =====================================================
    MOBILE HOME REGISTER CTA
    ===================================================== */

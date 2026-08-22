@@ -40,8 +40,8 @@
 }
 
 /* Button */
-button{
-    padding:16px 42px;
+.committee-cta-content a{
+     padding:16px 42px;
     background:#060707;
     color:#F4F4F4;
     border:2px solid #C7A34A;
@@ -51,16 +51,15 @@ button{
     cursor:pointer;
     transition:all .3s ease;
 }
-
-button:hover{
+.committee-cta-content a:hover{
     background:#C7A34A;
     color:#060707;
     transform:translateY(-5px);
     box-shadow:0 10px 25px rgba(199,163,74,.3);
+      
 }
-
-button:active{
-    transform:translateY(-2px);
+.committee-cta-content a:after{
+      transform:translateY(-2px);
 }
 @media (max-width: 767px) {
 

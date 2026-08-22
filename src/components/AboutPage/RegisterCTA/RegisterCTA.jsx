@@ -1,6 +1,7 @@
 import "./RegisterCTA.css";
 import Reveal from "../../Common/Animations/Reveal";
 function RegisterCTA() {
+    const RegisterLink="https://docs.google.com/forms/d/e/1FAIpQLSezSvRv0gPKz5TVbJfwu_RQgsT_8BX3v1q6ZtKjzfbXRKjdig/viewform?usp=header";
     return (
         <section className="register-cta">
            <Reveal direction="up">
@@ -11,7 +12,7 @@ function RegisterCTA() {
             </p>
            </Reveal>
   <Reveal direction="left">
-     <button>Register Now</button>
+     <a href={RegisterLink} >Register Now</a>
   </Reveal>
            
         </section>

@@ -16,14 +16,15 @@
 }
 
 .register-cta p{
-    max-width:700px;
+    max-width:70%;
     color:var(--text-secondary);
     font-size:1.7rem;
     line-height:1.8;
     margin-bottom:40px;
     letter-spacing:2px;
+    margin-left:160px;
 }
-.register-cta button{
+.register-cta a{
     padding:16px 42px;
     background:#060707;
     color:#F4F4F4;
@@ -35,16 +36,16 @@
     transition:all .3s ease;
 }
 
-.register-cta button:hover{
+.register-cta a:hover{
     background:#C7A34A;
     color:#060707;
-    transform:translateY(-5px);
+    transform:translateY(-10px);
     box-shadow:0 10px 25px rgba(199,163,74,.3);
 }
 
-.register-cta button:active{
-    transform:translateY(-2px);
-}
+/* .register-cta a:active{
+    transform:translateY(-10px);
+} */
 /* =====================================================
    MOBILE REGISTER CTA
    ===================================================== */

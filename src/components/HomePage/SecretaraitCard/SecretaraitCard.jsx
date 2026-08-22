@@ -9,9 +9,9 @@ function SecretaraitCard(){
         <h2>Secretariats</h2>
     </Reveal>
 
-    <Reveal direction="left">
+    {/* <Reveal direction="left"> */}
         <div className="secretariat-grid">
-           <div className="member-card">
+        <div className="member-card">
          <div className="member-img">
     <img src={photo} alt="Member" />
 </div>
@@ -21,50 +21,49 @@ function SecretaraitCard(){
 
 Dear Delegates,
 <br></br>
+
 Welcome to GNIMUN Season 2.
 <br></br>
 <br></br>
-This year, Borders of Tomorrow invites us to question the borders that shape our world—from migration and conflict to technology and trade—and imagine the ones we can redraw.
+Borders have always meant more than lines on a map — they define access, identity, and opportunity. This year, under the theme Borders of Tomorrow, we ask you to look beyond the borders we inherit and debate the ones we can still redraw.
 
-GNIMUN has grown from three committees to five—AIPPM, UNGA-DISEC, UNHRC, IPC, and TFI—and now welcomes over 230 delegates. With that growth comes a commitment to make every committee, session, and interaction worthy of you.
-
-Whether you're a first-time delegate or a returning one, come prepared to speak with conviction, listen openly, negotiate boldly, and build something meaningful.
-
-We can't wait to see what you argue, negotiate, and build together on 11th and 12th September.
+This is our most ambitious edition yet — five committees, over two hundred and thirty delegates, and a standard we've worked hard to match. Whether you're new to committee or a seasoned veteran, come ready to argue with conviction, listen with an open mind, and leave having built something that outlasts the two days.
 <br></br>
 <br></br>
 See you on the floor.
-
+<br></br>
+Abul Hasan Bin Omer<br></br>
+Secretary-General, GNIMUN Season 2
                  </p>
         </div>
 
-            <div className="member-card">
+        <div className="member-card">
          <div className="member-img">
     <img src={photo} alt="Member" />
 </div>
-              <h3>Armaan</h3>
+              <h3>Armaan Singh</h3>
             <p>Secretary-General</p>
             <p className="message">
 
+
+<br></br>
 Dear Delegates,
-<br></br>
-Welcome to GNIMUN Season 2.
-<br></br>
-<br></br>
-This year, Borders of Tomorrow invites us to question the borders that shape our world—from migration and conflict to technology and trade—and imagine the ones we can redraw.
 
-GNIMUN has grown from three committees to five—AIPPM, UNGA-DISEC, UNHRC, IPC, and TFI—and now welcomes over 230 delegates. With that growth comes a commitment to make every committee, session, and interaction worthy of you.
-
-Whether you're a first-time delegate or a returning one, come prepared to speak with conviction, listen openly, negotiate boldly, and build something meaningful.
-
-We can't wait to see what you argue, negotiate, and build together on 11th and 12th September.
 <br></br>
+Welcome to GNI MUN 2026.
+<br></br><br></br>
+Whether this is your first committee or your tenth, come ready to speak, argue, listen, and enjoy the chaos. Veterans, you know the drill , let the newer delegates cook  too. And if you’re new, take the floor and don’t overthink it.
+
+We’ve put a lot into this. Now bring the energy, challenge the routine, defend what you believe, and don’t be afraid to see things differently. After all, as a certain Sorcerer Supreme has said, the impossibilities are endless.
+<br></br><br></br>
+See you on the floor.<br></br>
 <br></br>
-See you on the floor.
+Armaan Singh<br></br>
+Secretary General, GNIMUN 2026
 
                  </p>
         </div>
-<div className="member-card">
+        <div className="member-card">
              <div className="member-img">
     <img src={photo} alt="Member" />
 </div>
@@ -72,28 +71,30 @@ See you on the floor.
             <p>Director-General</p>
       <p className="message">
 
+<br></br>
 Dear Delegates,
 <br></br>
-Welcome to GNIMUN Season 2.
+Welcome to GNI MUN 2026.
 <br></br>
 <br></br>
-This year, Borders of Tomorrow invites us to question the borders that shape our world—from migration and conflict to technology and trade—and imagine the ones we can redraw.
+Two days. Five committees. Hundreds of opinions — and probably a few arguments that will last longer than they should.
 
-GNIMUN has grown from three committees to five—AIPPM, UNGA-DISEC, UNHRC, IPC, and TFI—and now welcomes over 230 delegates. With that growth comes a commitment to make every committee, session, and interaction worthy of you.
+Come with an open mind, a sharp tongue, and enough preparation to survive when someone decides to challenge everything you just said. Whether you walk in as a first-timer or someone who practically lives in committee, make these two days count.
 
-Whether you're a first-time delegate or a returning one, come prepared to speak with conviction, listen openly, negotiate boldly, and build something meaningful.
-
-We can't wait to see what you argue, negotiate, and build together on 11th and 12th September.
+And if all else fails, remember: with great power comes great responsibility.
+<br></br>
+<br></br>See you on the floor.
 <br></br>
 <br></br>
-See you on the floor.
+Ayaan Ali Khan
+Director General, GNIMUN 2026 — Season 2
 
                  </p>
         </div>
 
        
     </div>
-    </Reveal>
+    {/* </Reveal> */}
 </section>
         </>
     );

@@ -8,7 +8,7 @@ import Reveal from "../../components/Common/Animations/Reveal";
 function Contact() {
     const googleMapsUrl =
         "https://www.google.com/maps/search/?api=1&query=17.1606,78.6591";
-
+ const InstaUrl="https://www.instagram.com/gnimunhyd2026/";
     return (
         <>
             <Navbar />
@@ -57,13 +57,13 @@ function Contact() {
                                     <p>
                                         Secretary General
                                         <br />
-                                        <span>+91 XXXXX XXXXX</span>
+                                        <span>+91 8074007280</span>
                                     </p>
 
                                     <p>
                                         Deputy Secretary General
                                         <br />
-                                        <span>+91 XXXXX XXXXX</span>
+                                        <span>+91 9392722788</span>
                                     </p>
 
                                 </div>
@@ -90,21 +90,23 @@ function Contact() {
 
                                     <div className="social-links">
 
-                                        <button
-                                            href="#"
+                                        <a
+                                            href={InstaUrl}
                                             target="_blank"
                                             rel="noopener noreferrer"
+                                            className="social-btn"
                                         >
                                             Instagram
-                                        </button>
+                                        </a>
 
-                                        <button
-                                            href="#"
+                                        <a
+                                            href={InstaUrl}
                                             target="_blank"
                                             rel="noopener noreferrer"
+                                            className="social-btn"
                                         >
                                             LinkedIn
-                                        </button>
+                                        </a>
 
                                     </div>
 

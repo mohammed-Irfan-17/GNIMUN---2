@@ -39,6 +39,307 @@ transition: border-color 0.2s ease;
     color: var(--text-secondary);color: var(--text-secondary);
     font-size:20px;
 }
+/* =========================
+   GNIMUN II COUNTDOWN
+========================= */
+/* =========================================
+   GNIMUN II COUNTDOWN
+========================================= */
+
+.countdown {
+    width: 100%;
+    max-width: 1350px;
+
+    margin: 70px auto 0;
+
+    padding: 55px 20px 35px;
+
+    text-align: center;
+
+    position: relative;
+}
+
+
+/* =========================================
+   TOP ORNAMENT
+========================================= */
+
+.countdown-ornament {
+    width: min(630px, 75%);
+
+    margin: 0 auto 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+}
+
+.countdown-ornament span {
+    height: 1px;
+
+    flex: 1;
+
+    background: linear-gradient(
+        to right,
+        transparent,
+        rgba(201, 162, 39, 0.75)
+    );
+}
+
+.countdown-ornament span:last-child {
+    background: linear-gradient(
+        to left,
+        transparent,
+        rgba(201, 162, 39, 0.75)
+    );
+}
+
+.countdown-ornament i {
+    color: #c9a227;
+
+    font-size: 18px;
+
+    font-style: normal;
+
+    line-height: 1;
+
+    text-shadow:
+        0 0 12px rgba(201, 162, 39, 0.35);
+}
+
+
+/* =========================================
+   GNIMUN II
+========================================= */
+
+.countdown-eyebrow {
+    margin: 0;
+
+    color: #c9a227;
+
+    font-family: "Times New Roman", serif;
+
+    font-size: clamp(
+        1.1rem,
+        1.8vw,
+        1.7rem
+    );
+
+    font-weight: 400;
+
+    letter-spacing: 10px;
+
+    text-transform: uppercase;
+}
+
+
+/* =========================================
+   THE COUNTDOWN
+========================================= */
+
+.countdown-title {
+    margin: 10px 0 60px;
+
+    color: #f4ead1;
+
+    font-family: "Times New Roman", serif;
+
+    font-size: clamp(
+        3rem,
+        5vw,
+        5.5rem
+    );
+
+    font-weight: 400;
+
+    line-height: 1;
+
+    letter-spacing: 5px;
+
+    text-transform: uppercase;
+
+    text-shadow:
+        0 5px 30px rgba(0, 0, 0, 0.45);
+}
+
+
+/* =========================================
+   COUNTDOWN GRID
+========================================= */
+
+.countdown-grid {
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+
+/* =========================================
+   COUNTDOWN ITEM
+========================================= */
+
+.countdown-item {
+    flex: 1;
+
+    max-width: 300px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+
+/* =========================================
+   HUGE NUMBERS
+========================================= */
+
+.countdown-number {
+    display: block;
+
+    color: #f7f0df;
+
+    font-family: "Times New Roman", serif;
+
+    font-size: clamp(
+        5rem,
+        9vw,
+        9rem
+    );
+
+    font-weight: 400;
+
+    line-height: 0.9;
+
+    letter-spacing: -3px;
+
+    font-variant-numeric: tabular-nums;
+
+    text-shadow:
+        0 5px 25px rgba(0, 0, 0, 0.45);
+}
+
+
+/* =========================================
+   LABELS
+========================================= */
+
+.countdown-item small {
+    margin-top: 30px;
+
+    color: rgba(235, 230, 215, 0.72);
+
+    /* font-family: Arial, sans-serif; */
+
+    font-size: 2rem;
+
+    font-weight: 600;
+
+    letter-spacing: 6px;
+
+    text-transform: uppercase;
+}
+
+
+/* =========================================
+   VERTICAL DIVIDERS
+========================================= */
+
+.countdown-divider {
+    width: 1px;
+
+    height: 125px;
+
+    flex-shrink: 0;
+
+    background: linear-gradient(
+        to bottom,
+        transparent,
+        rgba(201, 162, 39, 0.65),
+        transparent
+    );
+}
+
+
+/* =========================================
+   BOTTOM ORNAMENT
+========================================= */
+
+.countdown-bottom-ornament {
+    width: min(630px, 75%);
+
+    margin: 55px auto 0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 10px;
+}
+
+.countdown-bottom-ornament span {
+    height: 1px;
+
+    flex: 1;
+
+    background: linear-gradient(
+        to right,
+        transparent,
+        rgba(201, 162, 39, 0.45)
+    );
+}
+
+.countdown-bottom-ornament span:last-child {
+    background: linear-gradient(
+        to left,
+        transparent,
+        rgba(201, 162, 39, 0.45)
+    );
+}
+
+.countdown-bottom-ornament i {
+    color: #c9a227;
+
+    font-size: 14px;
+
+    font-style: normal;
+}
+
+
+/* =========================================
+   SUBTLE HOVER
+========================================= */
+
+.countdown-item {
+    transition:
+        transform 0.35s ease;
+}
+
+.countdown-item:hover {
+    transform: translateY(-5px);
+}
+
+.countdown-item:hover .countdown-number {
+    color: #fff8e8;
+
+    text-shadow:
+        0 0 25px rgba(201, 162, 39, 0.18);
+}
+
+.countdown-item:hover span {
+    color: #c9a227;
+}
 /* =====================================================
    MOBILE EVENT INFORMATION
    ===================================================== */
@@ -123,5 +424,68 @@ transition: border-color 0.2s ease;
 
         margin: 0;
     }
+    /* event count-down  */
+    .countdown {
+        margin-top: 50px;
 
+        padding: 35px 5px 25px;
+    }
+
+    .countdown-ornament {
+        width: 90%;
+
+        margin-bottom: 25px;
+    }
+
+    .countdown-eyebrow {
+        font-size: 0.85rem;
+
+        letter-spacing: 6px;
+    }
+
+    .countdown-title {
+        margin-top: 8px;
+
+        margin-bottom: 40px;
+
+        font-size: 2.4rem;
+
+        letter-spacing: 2px;
+    }
+
+    .countdown-grid {
+        width: 100%;
+    }
+
+    .countdown-item {
+        min-width: 0;
+    }
+
+    .countdown-number {
+        font-size: clamp(
+            2.6rem,
+            11vw,
+            4rem
+        );
+
+        letter-spacing: -1px;
+    }
+
+    .countdown-item small {
+        margin-top: 15px;
+
+        font-size: 0.5rem;
+
+        letter-spacing: 2px;
+    }
+
+    .countdown-divider {
+        height: 55px;
+    }
+
+    .countdown-bottom-ornament {
+        width: 90%;
+
+        margin-top: 40px;
+    }
 }

@@ -33,7 +33,7 @@ function Highlights() {
             ========================= */}
 
             <Reveal direction="up">
-                <h2>Previous Event Highlights</h2>
+                <h2>Moments That Defined GNIMUN 2025</h2>
             </Reveal>
 
 

@@ -4,45 +4,65 @@ import { Link } from "react-router-dom";
 function Footer() {
     return (
        <Reveal direction="up">
-         <footer className="footer">
-               <div className="footer-right">
+        <footer className="footer">
 
-                <h3>Contact</h3>
+    <div className="footer-right">
 
-                <p>Email: gnimun@email.com</p>
+        <h3>Contact</h3>
 
-                <p>Hyderabad, Telangana</p>
+        <p>Email: gnimun@email.com</p>
 
-                <p>© 2026 GNIMUN II</p>
+        <p>Hyderabad, Telangana</p>
 
-            </div>
+        <p>© 2026 GNIMUN II</p>
 
-           
+    </div>
 
-            <div className="footer-center">
 
-                <h3>Quick Links</h3>
+    <div className="footer-center">
 
-             <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                 <Link to="/committees">Committees</Link>
-                  <Link to="/team">Team</Link>
-                   <Link to="/contact">Contact</Link>
-                   
+        <h3>Quick Links</h3>
 
-            </div>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/committees">Committees</Link>
+        <Link to="/team">Team</Link>
+        <Link to="/contact">Contact</Link>
 
-            <div className="footer-left">
+    </div>
 
-                <h2>GNIMUN II</h2>
 
-                <p>Diplomacy Beyond Borders</p>
+    <div className="footer-left">
 
-                <p>Guru Nanak Institutions Model United Nations</p>
+        <h2>GNIMUN II</h2>
 
-            </div>
+        <p>Diplomacy Beyond Borders</p>
 
-        </footer>
+        <p>Guru Nanak Institutions Model United Nations</p>
+
+    </div>
+
+
+    {/* Developer section is now OUTSIDE footer-left */}
+
+    <div className="developer-credit">
+
+        <p className="developer-question">
+            Want to know more about the developer?
+        </p>
+
+        <a
+            href="https://www.linkedin.com/in/mohammad-irfan-484b06387/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="developer-link"
+        >
+            Meet Mohammad Irfan <span>→</span>
+        </a>
+
+    </div>
+
+</footer>
        </Reveal>
     );
 }

@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import munBackground from "./assets/images/mun-background.png";
+import munBackground from "./assets/images/background-2.png";
 
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";

@@ -1,10 +1,15 @@
-.footer{
-    background:var(--bg-primary);
-    border-top:1px solid var(--border-color);
-    padding:40px 10%;
-    display:flex;
-    justify-content:space-between;
-    gap:40px;
+.footer {
+    background: var(--bg-primary);
+    border-top: 1px solid var(--border-color);
+
+    padding: 40px 10% 0;
+
+    display: flex;
+    justify-content: space-between;
+
+    gap: 40px;
+
+    flex-wrap: wrap;
 }
 .footer .footer-left h2{
     color:var(--accent);
@@ -64,6 +69,87 @@
     color:var(--accent);
 
 }
+/* =====================================================
+   DEVELOPER CREDIT
+   ===================================================== */
+
+.developer-credit {
+    width: 100%;
+
+    flex-basis: 100%;
+
+    text-align: center;
+
+    padding: 35px 20px 40px;
+
+    margin-top: 15px;
+
+    border-top: 1px solid rgba(201, 162, 39, 0.15);
+
+    box-sizing: border-box;
+}
+
+
+.developer-question {
+    margin: 0 0 18px;
+
+    color: var(--text-secondary);
+
+    font-family: "Times New Roman", serif;
+
+    font-size: 1.4rem;
+
+    font-style: italic;
+}
+
+
+.developer-link {
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    text-decoration: none;
+
+    color: var(--text-primary);
+
+    font-family: "Times New Roman", serif;
+
+    letter-spacing:2px;
+
+    font-size: 1.5rem;
+
+    font-weight: 600;
+
+    transition: color 0.3s ease;
+}
+
+
+.developer-link span {
+    display: inline-block;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 1.5rem;
+
+    transition:
+        transform 0.3s ease,
+        color 0.3s ease;
+}
+
+
+.developer-link:hover {
+    color: var(--accent);
+}
+
+
+.developer-link:hover span {
+    color: var(--accent);
+
+    transform: translateX(5px);
+}
+
 /* =====================================================
    MOBILE FOOTER
    ===================================================== */
@@ -164,5 +250,35 @@
 
         margin-bottom: 7px;
     }
+    /* ---------- Developer ---------- */
+
+.footer .developer-credit {
+    width: 100%;
+
+    flex-basis: 100%;
+
+    padding: 30px 15px 35px;
+
+    margin-top: 5px;
+
+    box-sizing: border-box;
+}
+
+
+.footer .developer-question {
+    font-size: 20px;
+
+    margin-bottom: 15px;
+}
+
+
+.footer .developer-link {
+    font-size: 20px;
+}
+
+
+.footer .developer-link span {
+    font-size: 19px;
+}
 
 }

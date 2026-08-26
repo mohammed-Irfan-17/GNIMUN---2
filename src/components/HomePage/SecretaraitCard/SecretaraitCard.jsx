@@ -1,6 +1,6 @@
 import "./SecretaraitCard.css";
 // import photo from "../../../assets/logos/mun-logo.jpeg";
-import sec1 from "../../../assets/TeamMembers/sec1.png";
+import sec1 from "../../../assets/TeamMembers/hasan bhai.jpeg";
 import sec2 from "../../../assets/TeamMembers/sec2.png";
 import sec3 from "../../../assets/TeamMembers/sec3.jpeg";
 import Reveal from "../../Common/Animations/Reveal";

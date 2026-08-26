@@ -2,63 +2,43 @@ import "./Team.css";
 import TeamCard from "../../components/TeamPage/Teamcard";
 import Navbar from "../../components/Common/Navbar/Navbar";
 import Footer from "../../components/Common/Footer/Footer";
-import image from "../../assets/icons/photo edit.jpeg";
-// import image from "../../assets/images/DISECImage.png";
+import sec1 from "../../assets/TeamMembers/sec1.png";
+import sec2 from "../../assets/TeamMembers/sec2.png";
+import sec3 from "../../assets/TeamMembers/sec3.jpeg";
+import irfan from "../../assets/TeamMembers/irfan.jpeg";
+import harish from "../../assets/TeamMembers/harish.png";
 import Reveal from "../../components/Common/Animations/Reveal";
 
 function Team() {
 
      const teamMembers = [
         {
-            name: "Member Name",
+            name: "Abul Hasan Bin Omer",
             role: "Secretary General",
-            image: image
+            image: sec1
         },
         {
-            name: "Member Name",
-            role: "Deputy Secretary General",
-            image: image
+            name: "Armaan Singh",
+            role: "Secretary General",
+            image: sec2
         },
         {
-            name: "Member Name",
+            name: "Ayaan Ali Khan",
             role: "Director General",
-            image: image
+            image: sec3
         },
         {
-            name: "Member Name",
-            role: "Director General",
-            image: image
+           name: "Harish Kandi",
+            role: "Tech Team Lead",
+            image: harish
         },
         {
-            name: "Member Name",
-            role: "Director General",
-            image: image
+            name: "Mohammed Irfan",
+            role: "Frontend Developer",
+            image: irfan
         },
-        {
-            name: "Member Name",
-            role: "Director General",
-            image: image
-        },
-        {
-            name: "Member Name",
-            role: "Director General",
-            image: image
-        },
-        {
-            name: "Member Name",
-            role: "Director General",
-            image: image
-        },
-        {
-            name: "Member Name",
-            role: "Director General",
-            image: image
-        },
-        {
-            name: "Member Name",
-            role: "Director General",
-            image: image
-        },
+       
+       
         
     ];
 

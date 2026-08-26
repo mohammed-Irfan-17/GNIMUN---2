@@ -44,9 +44,10 @@
 
 .team-member-img {
     width: 100%;
-    height: 280px;
-
+    height: 250px;
+    /* border-radius:50%; */
     overflow: hidden;
+    /* padding:30px; */
 }
 
 .team-member-img img {
@@ -123,17 +124,28 @@
 
     .team-card {
         width: 100%;
-        /* height:250px; */
+        height:350px;
     }
 
     .team-member-img {
-        height: 200px;
+        height: 300px;
     }
+    .team-member-img img {
+    width: 100%;
+    height: 300px;
 
-    /* .team-member-content {
+    display: block;
+
+    object-fit: cover;
+
+    transition: 0.5s ease;
+}
+
+    .team-member-content {
         padding: 20px 15px;
+        height:100px;
     } 
-    */
+    
 
     .team-member-content h3 {
         font-size: 1rem;

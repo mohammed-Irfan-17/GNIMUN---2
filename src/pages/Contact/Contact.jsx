@@ -55,15 +55,25 @@ function Contact() {
                                     </span>
 
                                     <p>
+                                        Abul Hasan Bin Omer<br></br>
                                         Secretary General
                                         <br />
-                                        <span>+91 8074007280</span>
-                                    </p>
+                                        <span>+91 8074 007 280</span>
+                                    </p><br></br>
+
+
+                                     <p>
+                                        Armaan Singh<br></br>
+                                        Secretary General
+                                        <br />
+                                        <span>+91 93927 22788</span>
+                                    </p><br></br>
 
                                     <p>
-                                        Deputy Secretary General
+                                        Ayaan Ali Khan <br></br>
+                                        Director  General
                                         <br />
-                                        <span>+91 9392722788</span>
+                                        <span>+91 79978 18727</span>
                                     </p>
 
                                 </div>
@@ -76,7 +86,7 @@ function Contact() {
                                     </span>
 
                                     <a href="mailto:official@gnimun.com">
-                                        official@gnimun.com
+                                        gnimunhyd2026@gmail.com
                                     </a>
 
                                 </div>

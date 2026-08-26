@@ -5,7 +5,7 @@ import Hero from "../../components/HomePage/Herosection/Hero";
 import Committees from "../../components/HomePage/CommitteesCard/CommitteesCard";
 import Event from "../../components/HomePage/EventInfo/EventInfo";
 import Secretarait from "../../components/HomePage/SecretaraitCard/SecretaraitCard";
-import Sponsers from "../../components/HomePage/SponsersCard/Sponsers";
+// import Sponsers from "../../components/HomePage/SponsersCard/Sponsers";
 
 import Reveal from "../../components/Common/Animations/Reveal";
 import "./Home.css";
@@ -22,7 +22,7 @@ function Home() {
             <Event/>
             <Secretarait/>
            
-            <Sponsers/>
+            {/* <Sponsers/> */}
     <section className="home-register-cta">
     <div className="home-register-content">
   <Reveal direction="up">

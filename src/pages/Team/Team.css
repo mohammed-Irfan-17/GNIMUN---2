@@ -87,11 +87,13 @@ margin-bottom:0;
 
     .team-section {
         padding: 30px 20px 70px;
+    
     }
 
     .team-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 20px;
 }
+
 }

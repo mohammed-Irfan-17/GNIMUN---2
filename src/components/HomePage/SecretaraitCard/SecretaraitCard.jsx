@@ -1,5 +1,8 @@
 import "./SecretaraitCard.css";
-import photo from "../../../assets/logos/mun-logo.jpeg";
+// import photo from "../../../assets/logos/mun-logo.jpeg";
+import sec1 from "../../../assets/TeamMembers/sec1.png";
+import sec2 from "../../../assets/TeamMembers/sec2.png";
+import sec3 from "../../../assets/TeamMembers/sec3.jpeg";
 import Reveal from "../../Common/Animations/Reveal";
 function SecretaraitCard(){
     return (
@@ -13,7 +16,7 @@ function SecretaraitCard(){
         <div className="secretariat-grid">
         <div className="member-card">
          <div className="member-img">
-    <img src={photo} alt="Member" />
+    <img src={sec1} alt="Member" />
 </div>
               <h3>Abul Hasan Bin Omer</h3>
             <p>Secretary-General</p>
@@ -39,7 +42,7 @@ Secretary-General, GNIMUN Season 2
 
         <div className="member-card">
          <div className="member-img">
-    <img src={photo} alt="Member" />
+    <img src={sec2} alt="Member" />
 </div>
               <h3>Armaan Singh</h3>
             <p>Secretary-General</p>
@@ -65,7 +68,7 @@ Secretary General, GNIMUN 2026
         </div>
         <div className="member-card">
              <div className="member-img">
-    <img src={photo} alt="Member" />
+    <img src={sec3} alt="Member" />
 </div>
             <h3>Ayaan Ali Khan</h3>
             <p>Director-General</p>

@@ -3,7 +3,7 @@ import TeamCard from "../../components/TeamPage/Teamcard";
 import Navbar from "../../components/Common/Navbar/Navbar";
 import Footer from "../../components/Common/Footer/Footer";
 import sec1 from "../../assets/TeamMembers/hasan bhai.jpeg";
-import sec2 from "../../assets/TeamMembers/sec2.png";
+import sec2 from "../../assets/TeamMembers/Armaan bhai.jpeg";
 import sec3 from "../../assets/TeamMembers/sec3.jpeg";
 import irfan from "../../assets/TeamMembers/irfan.jpeg";
 import harish from "../../assets/TeamMembers/harish.png";

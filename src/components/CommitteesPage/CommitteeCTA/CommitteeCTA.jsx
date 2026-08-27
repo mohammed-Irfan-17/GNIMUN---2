@@ -18,7 +18,7 @@ function CommitteeCTA() {
 
         
 <Reveal direction="left">
-  <a href={RegisterLink} className="register-btn">Rgister now</a>
+  <a href={RegisterLink} className="register-btn">Register now</a>
 </Reveal>
        
 

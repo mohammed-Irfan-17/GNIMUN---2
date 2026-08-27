@@ -10,9 +10,9 @@ function Footer() {
 
         <h3>Contact</h3>
 
-        <a href="mailto:official@gnimun.com">
-                                        gnimunhyd2026@gmail.com
-                                    </a>
+        <a href="mailto:gnimunhyd2026@gmail.com">
+    gnimunhyd2026@gmail.com
+       </a>
 
         <p>Hyderabad, Telangana</p>
 
@@ -58,6 +58,7 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             className="developer-link"
+            font-family = "Times New Roman, serif"
         >
             Meet Mohammad Irfan <span>→</span>
         </a>

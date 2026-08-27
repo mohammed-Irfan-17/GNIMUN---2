@@ -85,9 +85,9 @@ function Contact() {
                                         Email
                                     </span>
 
-                                    <a href="mailto:official@gnimun.com">
-                                        gnimunhyd2026@gmail.com
-                                    </a>
+                                    <a href="mailto:gnimunhyd2026@gmail.com">
+                                         gnimunhyd2026@gmail.com
+                                      </a>
 
                                 </div>
 

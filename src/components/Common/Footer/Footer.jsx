@@ -10,7 +10,9 @@ function Footer() {
 
         <h3>Contact</h3>
 
-        <p>Email: gnimun@email.com</p>
+        <a href="mailto:official@gnimun.com">
+                                        gnimunhyd2026@gmail.com
+                                    </a>
 
         <p>Hyderabad, Telangana</p>
 

@@ -4,7 +4,7 @@ function WhyChoose() {
     return (
         <section className="why">
             <Reveal>
-                <h2>Why GNIMUN?</h2>
+                <h2>Why Attend GNIMUN?</h2>
             <p>
                 Discover the skills and experiences that make GNIMUN II
                 an enriching platform for every delegate.

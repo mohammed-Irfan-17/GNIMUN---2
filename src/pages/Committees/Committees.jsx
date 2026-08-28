@@ -25,7 +25,7 @@ const committees = [
     fullName: "United Nations Human Rights Council",
     overview:
       "The United Nations Human Rights Council (UNHRC) is an international body dedicated to promoting and protecting human rights across the world. Delegates discuss major human-rights challenges, examine international concerns, and work toward practical and diplomatic solutions.Through debate, negotiation, and resolution drafting, delegates are expected to represent their assigned countries.",
-    agenda: "Addressing Maritime Security in the Indo-Pacific Region",
+   agenda: "Committee agendas  will be revealed soon.",
   },
 
   {
@@ -35,7 +35,8 @@ const committees = [
     fullName: "Disarmament and International Security Committee",
     overview:
       "The Disarmament and International Security Committee (DISEC) addresses issues related to international peace, security, disarmament, and the prevention of armed conflict. Delegates examine threats to global stability and negotiate diplomatic solutions . The committee challenges delegates to balance national security interests with the broader goal of maintaining international peace and stability.",
-    agenda: "Strengthening International Protection of Refugees",
+       agenda: "Committee agendas  will be revealed soon.",
+
   },
 
   {
@@ -45,7 +46,7 @@ const committees = [
     fullName: "All India Political Parties Meet",
     overview:
       "The All India Political Parties Meet (AIPPM) brings together representatives of major Indian political parties to deliberate on important national issues. Unlike traditional international committees, delegates operate within the political and constitutional framework of India . The committee emphasizes political strategy, negotiation, coalition-building, and realistic policymaking while allowing delegates to represent the perspectives and positions of their assigned political parties.",
-    agenda: "Preparing for Future Global Health Emergencies",
+        agenda: "Committee agendas  will be revealed soon.",
   },
 
   {
@@ -55,7 +56,7 @@ const committees = [
     fullName: "Telugu Film Industry",
     overview:
       "The Telugu Film Industry (TFI) is one of India's major regional film industries, known for its diverse storytelling, influential artists, and significant cultural impact. The committee provides delegates with an opportunity to step into the roles of prominent personalities and stakeholders from the world of Telugu cinema . Delegates will navigate discussions, negotiations, creative differences, and industry challenges while representing the perspectives and interests of their assigned roles.",
-    agenda: "Regulating Autonomous Weapons Systems",
+    agenda: "Committee agendas  will be revealed soon.",
   },
 
   {
@@ -65,7 +66,7 @@ const committees = [
     fullName: "International Press",
     overview:
       "The International Press provides delegates with the opportunity to take on the role of journalists and media representatives covering the proceedings of the conference. Members of the press observe committee sessions, interact with delegates, and report on important developments . Through articles, interviews, and creative reporting, the International Press plays an essential role in documenting the conference and presenting its events from an independent perspective.",
-    agenda: "Promoting Inclusive Economic Recovery",
+        agenda: "Committee agendas  will be revealed soon.",
   },
 ];
 

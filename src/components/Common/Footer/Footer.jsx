@@ -58,9 +58,9 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             className="developer-link"
-            font-family = "Times New Roman, serif"
+            // font-family = "Times New Roman, serif"
         >
-            Meet Mohammad Irfan <span>→</span>
+            Meet Mohammed Irfan<span>→</span>
         </a>
 
     </div>

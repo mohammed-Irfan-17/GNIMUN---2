@@ -5,7 +5,7 @@ import Footer from "../../components/Common/Footer/Footer";
 import sec1 from "../../assets/TeamMembers/hasan bhai.jpeg";
 import sec2 from "../../assets/TeamMembers/Armaan bhai.jpeg";
 import sec3 from "../../assets/TeamMembers/sec3.jpeg";
-import irfan from "../../assets/TeamMembers/irfan.jpeg";
+import irfan from "../../assets/TeamMembers/irfan.png";
 import harish from "../../assets/TeamMembers/harish.png";
 import Reveal from "../../components/Common/Animations/Reveal";
 
@@ -49,14 +49,12 @@ function Team() {
 
             <section className="team-hero">
                 <Reveal direction="up">
-    <h1>Our Team</h1>
+    <h1>The People Behind the Vision</h1>
 </Reveal>
 
               <Reveal direction="up">
                   <p>
-                    Meet the people behind GNIMUN II,
-                    working together to create an exceptional
-                    Model United Nations experience.
+                    Meet the team turning ideas, ambition, and diplomacy into an unforgettable experience.
                 </p>
               </Reveal>
             </section>

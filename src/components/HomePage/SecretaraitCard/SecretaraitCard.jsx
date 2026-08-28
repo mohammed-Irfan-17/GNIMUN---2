@@ -9,7 +9,7 @@ function SecretaraitCard(){
         <>
         <section className="secretariat">
     <Reveal direction="left">
-        <h2>Meet the Secretariat</h2>
+        <h2>Meet the Secretariats</h2>
     </Reveal>
 
     {/* <Reveal direction="left"> */}

@@ -9,6 +9,7 @@ function Contact() {
     const googleMapsUrl =
         "https://www.google.com/maps/search/?api=1&query=17.1606,78.6591";
  const InstaUrl="https://www.instagram.com/gnimunhyd2026/";
+//  const LinkedinURL="";
     return (
         <>
             <Navbar />
@@ -109,14 +110,14 @@ function Contact() {
                                             Instagram
                                         </a>
 
-                                        <a
-                                            href={InstaUrl}
+                                        {/* <a
+                                            href={LinkedinURL}
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="social-btn"
                                         >
                                             LinkedIn
-                                        </a>
+                                        </a> */}
 
                                     </div>
 
